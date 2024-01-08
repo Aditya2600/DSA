@@ -1,0 +1,30 @@
+class NestedIterator {
+public:
+    NestedIterator(vector<NestedInteger> &nestedList) {
+        // Use a stack to handle nested lists in a LIFO manner
+        flattenList(nestedList);
+    }
+
+    int next() {
+        int result = q.front().getInteger();  // Safely access integer using getInteger()
+        q.pop();
+        return result;
+    }
+
+    bool hasNext() {
+        return !q.empty();  // Check for emptiness using empty() function
+    }
+
+private:
+    queue<NestedInteger> q;  // Queue to store flattened integers
+
+    void flattenList(vector<NestedInteger> &nestedList) {
+        for (auto &ni : nestedList) {
+            if (ni.isInteger()) {
+                q.push(ni);  // Add integer directly to queue
+            } else {
+                flattenList(ni.getList());  // Recursively flatten nested lists
+            }
+        }
+    }
+};
