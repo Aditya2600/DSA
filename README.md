@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/Aditya2600/Leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Aditya2600/Leetcode/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Aditya2600/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0542-01-matrix](https://github.com/Aditya2600/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Aditya2600/Leetcode/tree/master/0733-flood-fill) |
 | [1104-coloring-a-border](https://github.com/Aditya2600/Leetcode/tree/master/1104-coloring-a-border) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Aditya2600/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/Aditya2600/Leetcode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/Aditya2600/Leetcode/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Aditya2600/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0542-01-matrix](https://github.com/Aditya2600/Leetcode/tree/master/0542-01-matrix) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Aditya2600/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0733-flood-fill](https://github.com/Aditya2600/Leetcode/tree/master/0733-flood-fill) |
 | [0871-keys-and-rooms](https://github.com/Aditya2600/Leetcode/tree/master/0871-keys-and-rooms) |
@@ -37,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/Aditya2600/Leetcode/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Aditya2600/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0542-01-matrix](https://github.com/Aditya2600/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Aditya2600/Leetcode/tree/master/0733-flood-fill) |
 | [1104-coloring-a-border](https://github.com/Aditya2600/Leetcode/tree/master/1104-coloring-a-border) |
 ## Union Find
@@ -75,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Aditya2600/Leetcode/tree/master/0070-climbing-stairs) |
 | [0140-word-break-ii](https://github.com/Aditya2600/Leetcode/tree/master/0140-word-break-ii) |
 | [0198-house-robber](https://github.com/Aditya2600/Leetcode/tree/master/0198-house-robber) |
+| [0542-01-matrix](https://github.com/Aditya2600/Leetcode/tree/master/0542-01-matrix) |
 | [1236-n-th-tribonacci-number](https://github.com/Aditya2600/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 ## Backtracking
 |  |
