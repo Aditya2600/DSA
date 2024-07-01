@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0417-pacific-atlantic-water-flow](https://github.com/Aditya2600/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [1706-min-cost-to-connect-all-points](https://github.com/Aditya2600/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -17,4 +18,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0417-pacific-atlantic-water-flow](https://github.com/Aditya2600/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+## Union Find
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/Aditya2600/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
+## Graph
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/Aditya2600/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/Aditya2600/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
