@@ -35,10 +35,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/Aditya2600/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0140-word-break-ii](https://github.com/Aditya2600/Leetcode/tree/master/0140-word-break-ii) |
 ## String
 |  |
 | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/Aditya2600/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0140-word-break-ii](https://github.com/Aditya2600/Leetcode/tree/master/0140-word-break-ii) |
 ## Dynamic Programming
 |  |
@@ -50,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/Aditya2600/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0140-word-break-ii](https://github.com/Aditya2600/Leetcode/tree/master/0140-word-break-ii) |
 ## Trie
 |  |
