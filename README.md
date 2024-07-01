@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Aditya2600/Leetcode/tree/master/0070-climbing-stairs) |
 | [0140-word-break-ii](https://github.com/Aditya2600/Leetcode/tree/master/0140-word-break-ii) |
 | [0198-house-robber](https://github.com/Aditya2600/Leetcode/tree/master/0198-house-robber) |
 ## Backtracking
@@ -56,5 +57,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Aditya2600/Leetcode/tree/master/0070-climbing-stairs) |
 | [0140-word-break-ii](https://github.com/Aditya2600/Leetcode/tree/master/0140-word-break-ii) |
+## Math
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Aditya2600/Leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
