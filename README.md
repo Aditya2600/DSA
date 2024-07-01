@@ -41,10 +41,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Aditya2600/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/Aditya2600/Leetcode/tree/master/0022-generate-parentheses) |
 | [0140-word-break-ii](https://github.com/Aditya2600/Leetcode/tree/master/0140-word-break-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Aditya2600/Leetcode/tree/master/0022-generate-parentheses) |
 | [0070-climbing-stairs](https://github.com/Aditya2600/Leetcode/tree/master/0070-climbing-stairs) |
 | [0140-word-break-ii](https://github.com/Aditya2600/Leetcode/tree/master/0140-word-break-ii) |
 | [0198-house-robber](https://github.com/Aditya2600/Leetcode/tree/master/0198-house-robber) |
@@ -53,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Aditya2600/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/Aditya2600/Leetcode/tree/master/0022-generate-parentheses) |
 | [0140-word-break-ii](https://github.com/Aditya2600/Leetcode/tree/master/0140-word-break-ii) |
 ## Trie
 |  |
