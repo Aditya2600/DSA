@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/Aditya2600/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/Aditya2600/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Aditya2600/Leetcode/tree/master/0733-flood-fill) |
+| [0971-shortest-bridge](https://github.com/Aditya2600/Leetcode/tree/master/0971-shortest-bridge) |
 | [1104-coloring-a-border](https://github.com/Aditya2600/Leetcode/tree/master/1104-coloring-a-border) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Aditya2600/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Depth-First Search
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Aditya2600/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0733-flood-fill](https://github.com/Aditya2600/Leetcode/tree/master/0733-flood-fill) |
 | [0871-keys-and-rooms](https://github.com/Aditya2600/Leetcode/tree/master/0871-keys-and-rooms) |
+| [0971-shortest-bridge](https://github.com/Aditya2600/Leetcode/tree/master/0971-shortest-bridge) |
 | [1104-coloring-a-border](https://github.com/Aditya2600/Leetcode/tree/master/1104-coloring-a-border) |
 ## Breadth-First Search
 |  |
@@ -36,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Aditya2600/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0733-flood-fill](https://github.com/Aditya2600/Leetcode/tree/master/0733-flood-fill) |
 | [0871-keys-and-rooms](https://github.com/Aditya2600/Leetcode/tree/master/0871-keys-and-rooms) |
+| [0971-shortest-bridge](https://github.com/Aditya2600/Leetcode/tree/master/0971-shortest-bridge) |
 | [1104-coloring-a-border](https://github.com/Aditya2600/Leetcode/tree/master/1104-coloring-a-border) |
 ## Matrix
 |  |
@@ -45,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/Aditya2600/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/Aditya2600/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Aditya2600/Leetcode/tree/master/0733-flood-fill) |
+| [0971-shortest-bridge](https://github.com/Aditya2600/Leetcode/tree/master/0971-shortest-bridge) |
 | [1104-coloring-a-border](https://github.com/Aditya2600/Leetcode/tree/master/1104-coloring-a-border) |
 ## Union Find
 |  |
