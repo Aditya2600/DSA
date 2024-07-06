@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0971-shortest-bridge](https://github.com/Aditya2600/Leetcode/tree/master/0971-shortest-bridge) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aditya2600/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1104-coloring-a-border](https://github.com/Aditya2600/Leetcode/tree/master/1104-coloring-a-border) |
+| [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Aditya2600/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0871-keys-and-rooms](https://github.com/Aditya2600/Leetcode/tree/master/0871-keys-and-rooms) |
 | [0971-shortest-bridge](https://github.com/Aditya2600/Leetcode/tree/master/0971-shortest-bridge) |
 | [1104-coloring-a-border](https://github.com/Aditya2600/Leetcode/tree/master/1104-coloring-a-border) |
+| [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Aditya2600/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Matrix
 |  |
 | ------- |
@@ -62,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Aditya2600/Leetcode/tree/master/0200-number-of-islands) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aditya2600/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Aditya2600/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
+| [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Aditya2600/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Graph
 |  |
 | ------- |
@@ -72,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aditya2600/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Aditya2600/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1916-find-center-of-star-graph](https://github.com/Aditya2600/Leetcode/tree/master/1916-find-center-of-star-graph) |
+| [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Aditya2600/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
