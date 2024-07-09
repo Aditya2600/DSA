@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/Aditya2600/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Aditya2600/Leetcode/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Aditya2600/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
+| [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aditya2600/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1104-coloring-a-border](https://github.com/Aditya2600/Leetcode/tree/master/1104-coloring-a-border) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Aditya2600/Leetcode/tree/master/1663-detect-cycles-in-2d-grid) |
+| [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Aditya2600/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Breadth-First Search
 |  |
@@ -51,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1104-coloring-a-border](https://github.com/Aditya2600/Leetcode/tree/master/1104-coloring-a-border) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Aditya2600/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Aditya2600/Leetcode/tree/master/1663-detect-cycles-in-2d-grid) |
+| [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Aditya2600/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Matrix
 |  |
@@ -64,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1104-coloring-a-border](https://github.com/Aditya2600/Leetcode/tree/master/1104-coloring-a-border) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Aditya2600/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Aditya2600/Leetcode/tree/master/1663-detect-cycles-in-2d-grid) |
+| [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
 ## Union Find
 |  |
 | ------- |
@@ -72,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aditya2600/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Aditya2600/Leetcode/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Aditya2600/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
+| [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Aditya2600/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Graph
 |  |
@@ -144,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0099-recover-binary-search-tree](https://github.com/Aditya2600/Leetcode/tree/master/0099-recover-binary-search-tree) |
 | [0173-binary-search-tree-iterator](https://github.com/Aditya2600/Leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Aditya2600/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
 ## Binary Tree
 |  |
 | ------- |
@@ -171,4 +177,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/Aditya2600/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Aditya2600/Leetcode/tree/master/0210-course-schedule-ii) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
