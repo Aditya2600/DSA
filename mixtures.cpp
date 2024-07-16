@@ -2,6 +2,7 @@
 #include<vector>
 #include<climits>
 #include<cstring>
+#define ll long long int;
 
 using namespace std;
 
@@ -22,6 +23,21 @@ long long int f(vector<int> &colors, int i, int j){
     }
     return dp[i][j] = result;
 }
+ll fbu(vector<int> &colors){
+    memset(dp, 0, sizeof dp);
+    int n = colors.size();
+    for(int len = 2; len <= n; len++){
+        for(int i=0; i <= n - len; i++){
+            int j = i + len - 1;
+            ll result = INT_MAX;
+            for(int k=i; k<=j-1; k++){
+                result = min(result, dp[i][k] + dp[k+1][j] + g(colors, i, k) * g(colors,k+1,j));
+            }
+            dp[i][j] = result;
+        }
+    }
+    return dp[0][n-1];
+}
 
 int main(){
     int n;
@@ -33,9 +49,8 @@ int main(){
             colors.push_back(x);
         }
         memset(dp,-1,sizeof dp);
-        cout<<f(colors, 0, colors.size()-1)<<"\n";
-            colors.clear();
-            
+        cout<<fbu(colors)<<"\n";
+            colors.clear();     
     }
     return 0;
 }
