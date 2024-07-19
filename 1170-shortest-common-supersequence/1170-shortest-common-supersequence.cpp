@@ -3,54 +3,41 @@ public:
     string shortestCommonSupersequence(string str1, string str2) {
         int n = str1.size();
         int m = str2.size();
-        
-        // Create and initialize the DP array for LCS computation
         vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));
         
-        // Fill the dp array with LCS length values
-        for (int i = 1; i <= n; ++i) {
-            for (int j = 1; j <= m; ++j) {
-                if (str1[i - 1] == str2[j - 1]) {
-                    dp[i][j] = 1 + dp[i - 1][j - 1];
+        for (int i = n - 1; i >= 0; --i) {
+            for (int j = m - 1; j >= 0; --j) {
+                if (str1[i] == str2[j]) {
+                    dp[i][j] = 1 + dp[i + 1][j + 1];
                 } else {
-                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
+                    dp[i][j] = max(dp[i + 1][j], dp[i][j + 1]);
                 }
             }
         }
-        
-        // Construct the shortest common supersequence using the dp array
-        int i = n, j = m;
+    
+        int i = 0;
+        int j = 0;
         string ans;
-        
-        // Traceback to build the SCS
-        while (i > 0 && j > 0) {
-            if (str1[i - 1] == str2[j - 1]) {
-                ans.push_back(str1[i - 1]);
-                --i;
-                --j;
-            } else if (dp[i - 1][j] >= dp[i][j - 1]) {
-                ans.push_back(str1[i - 1]);
-                --i;
+        while (i < n && j < m) {
+            if (str1[i] == str2[j]) {
+                ans.push_back(str1[i]);
+                i++;
+                j++;
+            } else if (dp[i + 1][j] >= dp[i][j + 1]) {
+                ans.push_back(str1[i]);
+                i++;
             } else {
-                ans.push_back(str2[j - 1]);
-                --j;
+                ans.push_back(str2[j]);
+                j++;
             }
         }
         
-        // Add remaining characters of str1
-        while (i > 0) {
-            ans.push_back(str1[i - 1]);
-            --i;
+        while (i < n) {
+            ans.push_back(str1[i++]);
         }
-        
-        // Add remaining characters of str2
-        while (j > 0) {
-            ans.push_back(str2[j - 1]);
-            --j;
+        while (j < m) {
+            ans.push_back(str2[j++]);
         }
-        
-        // Reverse the string as we built it backwards
-        reverse(ans.begin(), ans.end());
         
         return ans;
     }
