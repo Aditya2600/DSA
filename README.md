@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/Aditya2600/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/Aditya2600/Leetcode/tree/master/0307-range-sum-query-mutable) |
 | [0322-coin-change](https://github.com/Aditya2600/Leetcode/tree/master/0322-coin-change) |
+| [0403-frog-jump](https://github.com/Aditya2600/Leetcode/tree/master/0403-frog-jump) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Aditya2600/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Aditya2600/Leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0542-01-matrix](https://github.com/Aditya2600/Leetcode/tree/master/0542-01-matrix) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Aditya2600/Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/Aditya2600/Leetcode/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/Aditya2600/Leetcode/tree/master/0322-coin-change) |
+| [0403-frog-jump](https://github.com/Aditya2600/Leetcode/tree/master/0403-frog-jump) |
 | [0542-01-matrix](https://github.com/Aditya2600/Leetcode/tree/master/0542-01-matrix) |
 | [0688-knight-probability-in-chessboard](https://github.com/Aditya2600/Leetcode/tree/master/0688-knight-probability-in-chessboard) |
 | [0747-min-cost-climbing-stairs](https://github.com/Aditya2600/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
