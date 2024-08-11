@@ -1,16 +1,28 @@
 class Solution {
 public:
-    int f(vector<int>& nums, int target, int i){
-        if(i < 0){
-            // If the target is 0, we've found a valid way to reach the target
-            return target == 0 ? 1 : 0;
+    int perfectSum(vector<int>& arr, int n, int sum) {
+        vector<vector<int>> dp(n + 1, vector<int>(sum + 1, 0));
+        for(int i = 0; i <= n; i++) dp[i][0] = 1;
+        for (int ind = 1; ind <= n; ind++) {
+            for (int targetSum = 0; targetSum <= sum; targetSum++) {
+                int notPick = dp[ind - 1][targetSum];
+                int pick = 0;
+                if (arr[ind - 1] <= targetSum) {
+                    pick = dp[ind - 1][targetSum - arr[ind - 1]];
+                }
+                dp[ind][targetSum] = (notPick + pick); 
+            }
         }
-        int take =  f(nums, target - nums[i], i-1);
-        int notTake = f(nums, target + nums[i], i-1);
-        return take + notTake;
+        return dp[n][sum];
+    }
+    int countPartitions(int n, int d, vector<int>& arr) {
+        int totalSum = 0;
+        for(int i=0; i<n; i++) totalSum += arr[i];
+        if(totalSum - d < 0 || (totalSum - d)%2) return false;
+        return perfectSum(arr, n, (totalSum - d)/2);
     }
     int findTargetSumWays(vector<int>& nums, int target) {
-        int n = nums.size()-1;
-        return f(nums, target, n);
+        int n = nums.size();
+        return countPartitions(n, target, nums);
     }
 };
