@@ -4,35 +4,32 @@ using namespace std;
 
 // } Driver Code Ends
 class Solution{
-
 	public:
-	 const int mod = 1e9 + 7;
-
-    // Recursive function to find the number of subsets with the given sum.
-    int f(int arr[], int sum, int ind, vector<vector<int>> &dp) {
-        // Base case: When there are no elements left to consider.
-        if (ind < 0) {
-            return (sum == 0) ? 1 : 0;
-        }
-        if(dp[ind][sum] != -1) return dp[ind][sum];
-        // Not picking the current element.
-        int notPick = f(arr, sum, ind - 1, dp);
-
-        // Picking the current element if it's not larger than the remaining sum.
-        int pick = 0;
-        if (arr[ind] <= sum) {
-            pick = f(arr, sum - arr[ind], ind - 1, dp);
-        }
-
-        // Return the sum of both possibilities, taking modulo to prevent overflow.
-        return dp[ind][sum] = (notPick + pick) % mod;
-    }
-
+	
+	const int mod = 1e9 + 7;
+    
     int perfectSum(int arr[], int n, int sum) {
-        vector<vector<int>> dp(n, vector<int> (sum+1, -1));
-        return f(arr, sum, n-1, dp);
+        // Initialize DP table
+        vector<vector<int>> dp(n + 1, vector<int>(sum + 1, 0));
+        
+        // Base case: sum = 0 can always be achieved by empty subset
+        for(int i = 0; i <= n; i++) dp[i][0] = 1;
+
+        // Fill the DP table
+        for (int ind = 1; ind <= n; ind++) {
+            for (int targetSum = 0; targetSum <= sum; targetSum++) {
+                int notPick = dp[ind - 1][targetSum];  // Not picking the current element
+                int pick = 0;
+                if (arr[ind - 1] <= targetSum) {
+                    pick = dp[ind - 1][targetSum - arr[ind - 1]];  // Picking the current element
+                }
+                dp[ind][targetSum] = (notPick + pick) % mod;  // Modulo operation
+            }
+        }
+        
+        // The result is stored in dp[n][sum]
+        return dp[n][sum];
     }
-	  
 };
 
 //{ Driver Code Starts.
