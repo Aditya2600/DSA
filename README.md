@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Aditya2600/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1170-shortest-common-supersequence](https://github.com/Aditya2600/Leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/Aditya2600/Leetcode/tree/master/1250-longest-common-subsequence) |
+| [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Aditya2600/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/Aditya2600/Leetcode/tree/master/1508-longest-happy-prefix) |
 | [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/Aditya2600/Leetcode/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
 | [3303-find-beautiful-indices-in-the-given-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3303-find-beautiful-indices-in-the-given-array-ii) |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1236-n-th-tribonacci-number](https://github.com/Aditya2600/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/Aditya2600/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/Aditya2600/Leetcode/tree/master/1263-number-of-dice-rolls-with-target-sum) |
+| [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Aditya2600/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Aditya2600/Leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Aditya2600/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1559-cherry-pickup-ii](https://github.com/Aditya2600/Leetcode/tree/master/1559-cherry-pickup-ii) |
