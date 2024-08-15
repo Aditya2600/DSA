@@ -156,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Aditya2600/Leetcode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Aditya2600/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/Aditya2600/Leetcode/tree/master/0038-count-and-say) |
+| [0044-wildcard-matching](https://github.com/Aditya2600/Leetcode/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/Aditya2600/Leetcode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/Aditya2600/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0140-word-break-ii](https://github.com/Aditya2600/Leetcode/tree/master/0140-word-break-ii) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Aditya2600/Leetcode/tree/master/0022-generate-parentheses) |
+| [0044-wildcard-matching](https://github.com/Aditya2600/Leetcode/tree/master/0044-wildcard-matching) |
 | [0062-unique-paths](https://github.com/Aditya2600/Leetcode/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Aditya2600/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Aditya2600/Leetcode/tree/master/0064-minimum-path-sum) |
@@ -350,10 +352,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/Aditya2600/Leetcode/tree/master/0044-wildcard-matching) |
 | [1013-fibonacci-number](https://github.com/Aditya2600/Leetcode/tree/master/1013-fibonacci-number) |
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/Aditya2600/Leetcode/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Aditya2600/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/Aditya2600/Leetcode/tree/master/0455-assign-cookies) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Aditya2600/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
