@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Aditya2600/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1129-longest-string-chain](https://github.com/Aditya2600/Leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/Aditya2600/Leetcode/tree/master/1170-shortest-common-supersequence) |
+| [1197-parsing-a-boolean-expression](https://github.com/Aditya2600/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1250-longest-common-subsequence](https://github.com/Aditya2600/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Aditya2600/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/Aditya2600/Leetcode/tree/master/1508-longest-happy-prefix) |
@@ -320,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/Aditya2600/Leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Aditya2600/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya2600/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1197-parsing-a-boolean-expression](https://github.com/Aditya2600/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 ## Design
 |  |
 | ------- |
@@ -378,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0044-wildcard-matching](https://github.com/Aditya2600/Leetcode/tree/master/0044-wildcard-matching) |
 | [1013-fibonacci-number](https://github.com/Aditya2600/Leetcode/tree/master/1013-fibonacci-number) |
+| [1197-parsing-a-boolean-expression](https://github.com/Aditya2600/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 ## Greedy
 |  |
 | ------- |
