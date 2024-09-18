@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/Aditya2600/Leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Aditya2600/Leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Aditya2600/Leetcode/tree/master/0542-01-matrix) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Aditya2600/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Aditya2600/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Aditya2600/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/Aditya2600/Leetcode/tree/master/0733-flood-fill) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/Aditya2600/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/Aditya2600/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Aditya2600/Leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Aditya2600/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Aditya2600/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aditya2600/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1129-longest-string-chain](https://github.com/Aditya2600/Leetcode/tree/master/1129-longest-string-chain) |
@@ -364,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Aditya2600/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Aditya2600/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Aditya2600/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0744-network-delay-time](https://github.com/Aditya2600/Leetcode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Aditya2600/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1014-k-closest-points-to-origin](https://github.com/Aditya2600/Leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -388,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Aditya2600/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Aditya2600/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1046-max-consecutive-ones-iii](https://github.com/Aditya2600/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
@@ -410,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/Aditya2600/Leetcode/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Aditya2600/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/Aditya2600/Leetcode/tree/master/0455-assign-cookies) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Aditya2600/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Aditya2600/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Aditya2600/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Aditya2600/Leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
@@ -469,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Aditya2600/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/Aditya2600/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/Aditya2600/Leetcode/tree/master/0455-assign-cookies) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Aditya2600/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1014-k-closest-points-to-origin](https://github.com/Aditya2600/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1129-longest-string-chain](https://github.com/Aditya2600/Leetcode/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Aditya2600/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
