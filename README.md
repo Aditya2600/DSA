@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1663-detect-cycles-in-2d-grid](https://github.com/Aditya2600/Leetcode/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Aditya2600/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Aditya2600/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1663-detect-cycles-in-2d-grid](https://github.com/Aditya2600/Leetcode/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Aditya2600/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Aditya2600/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Matrix
 |  |
 | ------- |
@@ -176,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1294-range-frequency-queries](https://github.com/Aditya2600/Leetcode/tree/master/1294-range-frequency-queries) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/Aditya2600/Leetcode/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Aditya2600/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## String
 |  |
 | ------- |
@@ -301,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Aditya2600/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0669-trim-a-binary-search-tree](https://github.com/Aditya2600/Leetcode/tree/master/0669-trim-a-binary-search-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya2600/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Aditya2600/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -331,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Aditya2600/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0669-trim-a-binary-search-tree](https://github.com/Aditya2600/Leetcode/tree/master/0669-trim-a-binary-search-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya2600/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Aditya2600/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Two Pointers
 |  |
 | ------- |
