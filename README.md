@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/Aditya2600/Leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Aditya2600/Leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Aditya2600/Leetcode/tree/master/0542-01-matrix) |
+| [0560-subarray-sum-equals-k](https://github.com/Aditya2600/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Aditya2600/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Aditya2600/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Aditya2600/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/Aditya2600/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/Aditya2600/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Aditya2600/Leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0560-subarray-sum-equals-k](https://github.com/Aditya2600/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Aditya2600/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Aditya2600/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aditya2600/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -404,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/Aditya2600/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0560-subarray-sum-equals-k](https://github.com/Aditya2600/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/Aditya2600/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Combinatorics
 |  |
