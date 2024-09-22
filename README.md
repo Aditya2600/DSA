@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [2591-frog-jump-ii](https://github.com/Aditya2600/Leetcode/tree/master/2591-frog-jump-ii) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
+| [3427-special-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3427-special-array-ii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -337,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2591-frog-jump-ii](https://github.com/Aditya2600/Leetcode/tree/master/2591-frog-jump-ii) |
 | [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/Aditya2600/Leetcode/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
 | [3303-find-beautiful-indices-in-the-given-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3303-find-beautiful-indices-in-the-given-array-ii) |
+| [3427-special-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3427-special-array-ii) |
 ## Binary Tree
 |  |
 | ------- |
@@ -426,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/Aditya2600/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/Aditya2600/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/Aditya2600/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [3427-special-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3427-special-array-ii) |
 ## Combinatorics
 |  |
 | ------- |
