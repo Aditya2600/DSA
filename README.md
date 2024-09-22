@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [2591-frog-jump-ii](https://github.com/Aditya2600/Leetcode/tree/master/2591-frog-jump-ii) |
+| [2847-find-maximum-number-of-string-pairs](https://github.com/Aditya2600/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/Aditya2600/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Aditya2600/Leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Aditya2600/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+| [2847-find-maximum-number-of-string-pairs](https://github.com/Aditya2600/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/Aditya2600/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 ## String
@@ -224,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Aditya2600/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/Aditya2600/Leetcode/tree/master/1508-longest-happy-prefix) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Aditya2600/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
+| [2847-find-maximum-number-of-string-pairs](https://github.com/Aditya2600/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/Aditya2600/Leetcode/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
 | [3303-find-beautiful-indices-in-the-given-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3303-find-beautiful-indices-in-the-given-array-ii) |
 ## Dynamic Programming
@@ -562,4 +565,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
+## Simulation
+|  |
+| ------- |
+| [2847-find-maximum-number-of-string-pairs](https://github.com/Aditya2600/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 <!---LeetCode Topics End-->
