@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [2591-frog-jump-ii](https://github.com/Aditya2600/Leetcode/tree/master/2591-frog-jump-ii) |
+| [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Aditya2600/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+| [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 ## String
 |  |
 | ------- |
@@ -303,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1236-n-th-tribonacci-number](https://github.com/Aditya2600/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/Aditya2600/Leetcode/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+| [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 ## Tree
 |  |
 | ------- |
@@ -523,6 +526,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1777-determine-if-two-strings-are-close](https://github.com/Aditya2600/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/Aditya2600/Leetcode/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+| [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 ## Quickselect
 |  |
 | ------- |
