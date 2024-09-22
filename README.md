@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [2591-frog-jump-ii](https://github.com/Aditya2600/Leetcode/tree/master/2591-frog-jump-ii) |
+| [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Aditya2600/Leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 | [3427-special-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3427-special-array-ii) |
 ## Depth-First Search
@@ -475,6 +476,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0686-repeated-string-match](https://github.com/Aditya2600/Leetcode/tree/master/0686-repeated-string-match) |
 | [1508-longest-happy-prefix](https://github.com/Aditya2600/Leetcode/tree/master/1508-longest-happy-prefix) |
 | [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/Aditya2600/Leetcode/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
+| [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Aditya2600/Leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
 | [3303-find-beautiful-indices-in-the-given-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3303-find-beautiful-indices-in-the-given-array-ii) |
 ## Rolling Hash
 |  |
@@ -482,6 +484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0214-shortest-palindrome](https://github.com/Aditya2600/Leetcode/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/Aditya2600/Leetcode/tree/master/1508-longest-happy-prefix) |
 | [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/Aditya2600/Leetcode/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
+| [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Aditya2600/Leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
 | [3303-find-beautiful-indices-in-the-given-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3303-find-beautiful-indices-in-the-given-array-ii) |
 ## Hash Function
 |  |
@@ -489,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0214-shortest-palindrome](https://github.com/Aditya2600/Leetcode/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/Aditya2600/Leetcode/tree/master/1508-longest-happy-prefix) |
 | [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/Aditya2600/Leetcode/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
+| [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Aditya2600/Leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
 | [3303-find-beautiful-indices-in-the-given-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3303-find-beautiful-indices-in-the-given-array-ii) |
 ## Ordered Set
 |  |
