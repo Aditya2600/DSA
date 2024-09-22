@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/Aditya2600/Leetcode/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Aditya2600/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1294-range-frequency-queries](https://github.com/Aditya2600/Leetcode/tree/master/1294-range-frequency-queries) |
+| [1319-unique-number-of-occurrences](https://github.com/Aditya2600/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Aditya2600/Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Aditya2600/Leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1559-cherry-pickup-ii](https://github.com/Aditya2600/Leetcode/tree/master/1559-cherry-pickup-ii) |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aditya2600/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1129-longest-string-chain](https://github.com/Aditya2600/Leetcode/tree/master/1129-longest-string-chain) |
 | [1294-range-frequency-queries](https://github.com/Aditya2600/Leetcode/tree/master/1294-range-frequency-queries) |
+| [1319-unique-number-of-occurrences](https://github.com/Aditya2600/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Aditya2600/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Aditya2600/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/Aditya2600/Leetcode/tree/master/1925-count-nice-pairs-in-an-array) |
