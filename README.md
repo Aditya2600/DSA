@@ -423,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Aditya2600/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0295-find-median-from-data-stream](https://github.com/Aditya2600/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Aditya2600/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Aditya2600/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -557,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Aditya2600/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/Aditya2600/Leetcode/tree/master/0053-maximum-subarray) |
 | [0347-top-k-frequent-elements](https://github.com/Aditya2600/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/Aditya2600/Leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -595,4 +597,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Aditya2600/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
+## Linked List
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Aditya2600/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Aditya2600/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
