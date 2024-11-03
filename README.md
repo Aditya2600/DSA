@@ -293,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Aditya2600/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0686-repeated-string-match](https://github.com/Aditya2600/Leetcode/tree/master/0686-repeated-string-match) |
 | [0721-accounts-merge](https://github.com/Aditya2600/Leetcode/tree/master/0721-accounts-merge) |
+| [0812-rotate-string](https://github.com/Aditya2600/Leetcode/tree/master/0812-rotate-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Aditya2600/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1129-longest-string-chain](https://github.com/Aditya2600/Leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/Aditya2600/Leetcode/tree/master/1170-shortest-common-supersequence) |
@@ -601,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Aditya2600/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0214-shortest-palindrome](https://github.com/Aditya2600/Leetcode/tree/master/0214-shortest-palindrome) |
 | [0686-repeated-string-match](https://github.com/Aditya2600/Leetcode/tree/master/0686-repeated-string-match) |
+| [0812-rotate-string](https://github.com/Aditya2600/Leetcode/tree/master/0812-rotate-string) |
 | [1508-longest-happy-prefix](https://github.com/Aditya2600/Leetcode/tree/master/1508-longest-happy-prefix) |
 | [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/Aditya2600/Leetcode/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
 | [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Aditya2600/Leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
