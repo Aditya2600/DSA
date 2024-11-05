@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Aditya2600/Leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 | [3427-special-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3427-special-array-ii) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya2600/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1663-detect-cycles-in-2d-grid](https://github.com/Aditya2600/Leetcode/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [3227-find-missing-and-repeated-values](https://github.com/Aditya2600/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya2600/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Union Find
 |  |
 | ------- |
@@ -219,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1916-find-center-of-star-graph](https://github.com/Aditya2600/Leetcode/tree/master/1916-find-center-of-star-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Aditya2600/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Aditya2600/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya2600/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
@@ -512,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/Aditya2600/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/Aditya2600/Leetcode/tree/master/1127-last-stone-weight) |
 | [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya2600/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Shortest Path
 |  |
 | ------- |
@@ -519,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/Aditya2600/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Aditya2600/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Aditya2600/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya2600/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Monotonic Stack
 |  |
 | ------- |
