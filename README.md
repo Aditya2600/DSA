@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3427-special-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3427-special-array-ii) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya2600/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Aditya2600/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/Aditya2600/Leetcode/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 | [3748-sort-matrix-by-diagonals](https://github.com/Aditya2600/Leetcode/tree/master/3748-sort-matrix-by-diagonals) |
 ## Depth-First Search
 |  |
@@ -380,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Aditya2600/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Aditya2600/Leetcode/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2554-minimum-total-distance-traveled](https://github.com/Aditya2600/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
+| [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/Aditya2600/Leetcode/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 ## Backtracking
 |  |
 | ------- |
@@ -419,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-find-missing-and-repeated-values](https://github.com/Aditya2600/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/Aditya2600/Leetcode/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
+| [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/Aditya2600/Leetcode/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Aditya2600/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Tree
 |  |
@@ -571,6 +574,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0062-unique-paths](https://github.com/Aditya2600/Leetcode/tree/master/0062-unique-paths) |
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/Aditya2600/Leetcode/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
+| [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/Aditya2600/Leetcode/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Aditya2600/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Recursion
 |  |
@@ -674,6 +678,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2554-minimum-total-distance-traveled](https://github.com/Aditya2600/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Aditya2600/Leetcode/tree/master/3291-find-if-array-can-be-sorted) |
+| [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/Aditya2600/Leetcode/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 | [3748-sort-matrix-by-diagonals](https://github.com/Aditya2600/Leetcode/tree/master/3748-sort-matrix-by-diagonals) |
 ## Divide and Conquer
 |  |
