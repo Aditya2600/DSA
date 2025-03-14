@@ -1,0 +1,93 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+// Fast Input Function
+vector<int> ai(int n) {
+    vector<int> arr(n);
+    for (int i = 0; i < n; i++)
+        cin >> arr[i];
+    return arr;
+}
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
+    int t;
+    cin >> t;
+
+    while (t--) {
+        int n, k;
+        cin >> n >> k;
+        vector<int> a = ai(n);
+
+        unordered_map<int, int> map1, map2;
+        for (int i = 0; i < n; i++) {
+            map1[a[i]]++;
+            map2[a[i]]++;
+        }
+
+        int maxFreq = map1[k];
+        bool isAlreadyValid = true;
+
+        for (auto &pair : map1) {
+            if (pair.second > maxFreq) {
+                isAlreadyValid = false;
+                break;
+            }
+        }
+
+        if (isAlreadyValid) {
+            cout << 0 << "\n";
+            continue;
+        }
+
+        bool found = false;
+
+        // Try removing elements from the front
+        for (int i = 0; i < n; i++) {
+            int mx = map1[k];
+            bool valid = true;
+            for (auto &pair : map1) {
+                if (pair.second > mx) {
+                    valid = false;
+                    break;
+                }
+            }
+            if (valid) {
+                found = true;
+                break;
+            }
+
+            // Remove a[i] from map1
+            if (--map1[a[i]] == 0) {
+                map1.erase(a[i]);
+            }
+        }
+
+        // Try removing elements from the back
+        for (int i = n - 1; i >= 0; i--) {
+            int mx = map2[k];
+            bool valid = true;
+            for (auto &pair : map2) {
+                if (pair.second > mx) {
+                    valid = false;
+                    break;
+                }
+            }
+            if (valid) {
+                found = true;
+                break;
+            }
+
+            // Remove a[i] from map2
+            if (--map2[a[i]] == 0) {
+                map2.erase(a[i]);
+            }
+        }
+
+        cout << (found ? 1 : 2) << "\n";
+    }
+
+    return 0;
+}
