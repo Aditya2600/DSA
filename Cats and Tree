@@ -1,0 +1,59 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#define int long long
+#define fastio ios::sync_with_stdio(false); cin.tie(nullptr);
+
+const int MAX_LOG = 19;
+int n;
+vector<vector<int>> up;
+vector<int> parent, occupied, jump;
+
+void buildLiftingTable() {
+    for (int i = 1; i <= n; i++) 
+        up[i][0] = parent[i];
+
+    for (int j = 1; j < MAX_LOG; j++) {
+        for (int i = 1; i <= n; i++) {
+            up[i][j] = up[up[i][j - 1]][j - 1];  
+        }
+    }
+}
+
+int findJumps(int node) {
+    if (occupied[node]) return 0;
+
+    int jumps = 1;
+    for (int j = MAX_LOG - 1; j >= 0; j--) {
+        int ancestor = up[node][j];
+        if (!occupied[ancestor]) {
+            node = ancestor;
+            jumps += (1 << j);
+        }
+    }
+    occupied[node] = 1;  
+    return jumps;
+}
+
+void solve() {
+    cin >> n;
+    parent.resize(n + 1);
+    occupied.assign(n + 1, 0);
+    jump.resize(n + 1);
+    up.assign(n + 1, vector<int>(MAX_LOG));
+
+    occupied[0] = 1;  
+    for (int i = 1; i <= n; i++) cin >> parent[i];
+    for (int i = 1; i <= n; i++) cin >> jump[i];
+
+    buildLiftingTable();
+
+    for (int i = 1; i <= n; i++) {
+        cout << findJumps(jump[i]) << "\n";
+    }
+}
+
+signed main() {
+    fastio;
+    solve();
+}
