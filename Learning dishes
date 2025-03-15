@@ -1,0 +1,117 @@
+#include<bits/stdc++.h>
+using namespace std;
+const int M = 1e9+7;
+using ll = long long int;
+using vi = vector<int>;
+using vii = vector<ll>;
+#define pb push_back
+#define ln                "\n" // no flush, oppos of endl
+#define MIN(a,b) (a<b ? a : b)
+#define MAX(a, b) (a < b ? b : a)
+
+int n;
+int value[1000010]; // tastiness of the dish (1-indexed)
+int parent[1000010]; // parent of a node , it starts for 2-index
+vector<int> adj[1000010]; // will be used for 
+// dfs for preprocessing
+pair<int,int> upperCeil[1000010];
+// the preprocessed result will be kept here
+const int MAXBIT=floor(log2(1000000)+1); 
+int table[MAXBIT][1000010];
+
+void build(int n){
+    for(int i=1; i<=n; ++i){
+        table[0][i]=parent[i];
+    }
+
+    for(int i=1; i<MAXBIT; ++i){
+        for(int j=1; j<=n; ++j){
+            table[i][j]=table[i-1][table[i-1][j]];
+        }
+    }
+}
+
+void DFS(int node,int maxi,int cnt){
+    if(value[node]>maxi){
+        cnt+=1;
+        maxi=value[node];
+    }
+
+    upperCeil[node]={maxi,cnt};
+
+    for(auto& adjNode:adj[node]){
+        DFS(adjNode,maxi,cnt);
+    }
+}
+
+int cal(int u,int w){
+
+    if(upperCeil[u].first<=w) return 0;
+
+    int curr=u;
+
+    // while(true){
+    //     int p=parent[curr];
+    //     curr=p;
+    //     if(upperCeil[p].first<=w) break;
+    // }
+
+    for(int i=MAXBIT-1; i>=0; --i){
+        int p=table[i][curr];
+        if(upperCeil[p].first > w){
+            curr=p;
+        }
+    }
+    curr=parent[curr];
+
+    return upperCeil[u].second-upperCeil[curr].second;
+}
+
+void solve(){
+    cin>> n;
+
+    for(int i = 1; i <= n; ++i){
+        adj[i].clear();
+    }
+
+    for(int i=1;i<=n; ++i){
+        cin >> value[i];
+    }
+    for(int i=2; i<=n; ++i){
+        cin >> parent[i];
+        int p=parent[i];
+        adj[p].push_back(i);
+    }
+
+    build(n);
+
+    // preprocessing
+    for(int i = 0; i <= n; ++i){
+        upperCeil[i] = {0, 0};
+    }
+    DFS(1,0,0);
+    
+    int pr=0;
+    int q;
+    cin >> q;
+    while(q--){
+        int u,w;
+        cin >> u >> w;
+        u=u^pr;
+        w=w^pr;
+
+        pr=cal(u,w);
+        cout << pr << ln;
+    }
+}
+
+int main(){
+    ios_base::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
+
+    int _t;
+    cin >> _t;
+    while(_t--)
+        solve();
+    return 0;
+}
