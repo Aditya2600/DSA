@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Aditya2600/Leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 | [3427-special-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3427-special-array-ii) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Aditya2600/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/Aditya2600/Leetcode/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Aditya2600/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Depth-First Search
@@ -546,6 +547,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/Aditya2600/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Aditya2600/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2478-longest-nice-subarray](https://github.com/Aditya2600/Leetcode/tree/master/2478-longest-nice-subarray) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Aditya2600/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Aditya2600/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Prefix Sum
 |  |
@@ -556,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/Aditya2600/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Aditya2600/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [3427-special-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3427-special-array-ii) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Aditya2600/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Combinatorics
 |  |
 | ------- |
@@ -607,6 +610,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Aditya2600/Leetcode/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Aditya2600/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/Aditya2600/Leetcode/tree/master/2478-longest-nice-subarray) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Aditya2600/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## String Matching
 |  |
 | ------- |
@@ -717,4 +721,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Aditya2600/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+## Queue
+|  |
+| ------- |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Aditya2600/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 <!---LeetCode Topics End-->
