@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3430-count-days-without-meetings](https://github.com/Aditya2600/Leetcode/tree/master/3430-count-days-without-meetings) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Aditya2600/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/Aditya2600/Leetcode/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
+| [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Aditya2600/Leetcode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Aditya2600/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Depth-First Search
 |  |
@@ -692,6 +693,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2554-minimum-total-distance-traveled](https://github.com/Aditya2600/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [3430-count-days-without-meetings](https://github.com/Aditya2600/Leetcode/tree/master/3430-count-days-without-meetings) |
+| [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Aditya2600/Leetcode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Divide and Conquer
 |  |
 | ------- |
