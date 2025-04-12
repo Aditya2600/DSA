@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void solve(){
+    int n;
+    cin >> n;
+    string s;
+    cin >> s;
+
+    vector<long long> dp(n);
+    dp[0] = 1;
+    long long cnt = (s[0] == '0');
+
+    for(int i = 1; i < n; i++){
+        cnt += (s[i] == '0');
+        if(cnt == i + 1 - cnt){
+            dp[i] = dp[i-1] * 2;
+        }
+        else{
+            dp[i] = dp[i-1];
+        }
+    }
+    cout << dp[n-1] << endl;
+}
+
+int main() {
+    int t;
+    cin >> t;
+    while(t--){
+        solve();
+    }
+}
