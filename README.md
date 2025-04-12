@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Aditya2600/Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/Aditya2600/Leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Aditya2600/Leetcode/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/Aditya2600/Leetcode/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/Aditya2600/Leetcode/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/Aditya2600/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/Aditya2600/Leetcode/tree/master/0303-range-sum-query-immutable) |
@@ -439,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/Aditya2600/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Aditya2600/Leetcode/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/Aditya2600/Leetcode/tree/master/0096-unique-binary-search-trees) |
+| [0204-count-primes](https://github.com/Aditya2600/Leetcode/tree/master/0204-count-primes) |
 | [0368-largest-divisible-subset](https://github.com/Aditya2600/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0400-nth-digit](https://github.com/Aditya2600/Leetcode/tree/master/0400-nth-digit) |
 | [0507-perfect-number](https://github.com/Aditya2600/Leetcode/tree/master/0507-perfect-number) |
@@ -759,6 +761,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Aditya2600/Leetcode/tree/master/0204-count-primes) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2482-maximum-rows-covered-by-columns](https://github.com/Aditya2600/Leetcode/tree/master/2482-maximum-rows-covered-by-columns) |
 ## Simulation
@@ -783,6 +786,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Aditya2600/Leetcode/tree/master/0204-count-primes) |
 | [2595-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Aditya2600/Leetcode/tree/master/2595-smallest-value-after-replacing-with-sum-of-prime-factors) |
 | [2722-prime-in-diagonal](https://github.com/Aditya2600/Leetcode/tree/master/2722-prime-in-diagonal) |
 <!---LeetCode Topics End-->
