@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [2554-minimum-total-distance-traveled](https://github.com/Aditya2600/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [2591-frog-jump-ii](https://github.com/Aditya2600/Leetcode/tree/master/2591-frog-jump-ii) |
+| [2609-distinct-prime-factors-of-product-of-array](https://github.com/Aditya2600/Leetcode/tree/master/2609-distinct-prime-factors-of-product-of-array) |
 | [2722-prime-in-diagonal](https://github.com/Aditya2600/Leetcode/tree/master/2722-prime-in-diagonal) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Aditya2600/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/Aditya2600/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
@@ -297,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2308-divide-array-into-equal-pairs](https://github.com/Aditya2600/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Aditya2600/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+| [2609-distinct-prime-factors-of-product-of-array](https://github.com/Aditya2600/Leetcode/tree/master/2609-distinct-prime-factors-of-product-of-array) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Aditya2600/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/Aditya2600/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
@@ -452,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Aditya2600/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [2595-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Aditya2600/Leetcode/tree/master/2595-smallest-value-after-replacing-with-sum-of-prime-factors) |
+| [2609-distinct-prime-factors-of-product-of-array](https://github.com/Aditya2600/Leetcode/tree/master/2609-distinct-prime-factors-of-product-of-array) |
 | [2722-prime-in-diagonal](https://github.com/Aditya2600/Leetcode/tree/master/2722-prime-in-diagonal) |
 | [3227-find-missing-and-repeated-values](https://github.com/Aditya2600/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
@@ -788,5 +791,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/Aditya2600/Leetcode/tree/master/0204-count-primes) |
 | [2595-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Aditya2600/Leetcode/tree/master/2595-smallest-value-after-replacing-with-sum-of-prime-factors) |
+| [2609-distinct-prime-factors-of-product-of-array](https://github.com/Aditya2600/Leetcode/tree/master/2609-distinct-prime-factors-of-product-of-array) |
 | [2722-prime-in-diagonal](https://github.com/Aditya2600/Leetcode/tree/master/2722-prime-in-diagonal) |
 <!---LeetCode Topics End-->
