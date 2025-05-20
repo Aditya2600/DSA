@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3443-maximum-total-reward-using-operations-ii](https://github.com/Aditya2600/Leetcode/tree/master/3443-maximum-total-reward-using-operations-ii) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Aditya2600/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/Aditya2600/Leetcode/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
+| [3639-zero-array-transformation-i](https://github.com/Aditya2600/Leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Aditya2600/Leetcode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Aditya2600/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3809-properties-graph](https://github.com/Aditya2600/Leetcode/tree/master/3809-properties-graph) |
@@ -626,6 +627,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/Aditya2600/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [3427-special-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3427-special-array-ii) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Aditya2600/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3639-zero-array-transformation-i](https://github.com/Aditya2600/Leetcode/tree/master/3639-zero-array-transformation-i) |
 ## Combinatorics
 |  |
 | ------- |
