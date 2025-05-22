@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Aditya2600/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/Aditya2600/Leetcode/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
 | [3639-zero-array-transformation-i](https://github.com/Aditya2600/Leetcode/tree/master/3639-zero-array-transformation-i) |
+| [3647-zero-array-transformation-iii](https://github.com/Aditya2600/Leetcode/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Aditya2600/Leetcode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Aditya2600/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3809-properties-graph](https://github.com/Aditya2600/Leetcode/tree/master/3809-properties-graph) |
@@ -598,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/Aditya2600/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/Aditya2600/Leetcode/tree/master/1127-last-stone-weight) |
 | [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
+| [3647-zero-array-transformation-iii](https://github.com/Aditya2600/Leetcode/tree/master/3647-zero-array-transformation-iii) |
 ## Shortest Path
 |  |
 | ------- |
@@ -643,6 +645,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3427-special-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3427-special-array-ii) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Aditya2600/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3639-zero-array-transformation-i](https://github.com/Aditya2600/Leetcode/tree/master/3639-zero-array-transformation-i) |
+| [3647-zero-array-transformation-iii](https://github.com/Aditya2600/Leetcode/tree/master/3647-zero-array-transformation-iii) |
 ## Combinatorics
 |  |
 | ------- |
@@ -675,6 +678,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Aditya2600/Leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [2591-frog-jump-ii](https://github.com/Aditya2600/Leetcode/tree/master/2591-frog-jump-ii) |
 | [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/Aditya2600/Leetcode/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
+| [3647-zero-array-transformation-iii](https://github.com/Aditya2600/Leetcode/tree/master/3647-zero-array-transformation-iii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Aditya2600/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Binary Indexed Tree
 |  |
@@ -764,6 +768,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2554-minimum-total-distance-traveled](https://github.com/Aditya2600/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [3321-type-of-triangle](https://github.com/Aditya2600/Leetcode/tree/master/3321-type-of-triangle) |
 | [3430-count-days-without-meetings](https://github.com/Aditya2600/Leetcode/tree/master/3430-count-days-without-meetings) |
+| [3647-zero-array-transformation-iii](https://github.com/Aditya2600/Leetcode/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Aditya2600/Leetcode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/Aditya2600/Leetcode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 ## Divide and Conquer
