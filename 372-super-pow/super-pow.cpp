@@ -5,8 +5,7 @@ public:
         long long int sum = 0;
         int n = b.size();
         int ten = 1;
-        if(n == 0) return 0;
-        if(n == 1) return b[0];
+        
         for(int i=n-1; i>=0; i--){
             sum += (b[i] * ten) % 1140;
             ten = (ten*10)%1140;
@@ -15,8 +14,7 @@ public:
     }
 
     long long bin_exp(long long a, long long b, long long m){
-        if(b == 0) return 1;
-        if(b == 1) return a;
+        
         long long ans = 1;
         while(b > 0){
             if(b & 1){
