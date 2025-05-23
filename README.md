@@ -474,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Aditya2600/Leetcode/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/Aditya2600/Leetcode/tree/master/0279-perfect-squares) |
 | [0368-largest-divisible-subset](https://github.com/Aditya2600/Leetcode/tree/master/0368-largest-divisible-subset) |
+| [0372-super-pow](https://github.com/Aditya2600/Leetcode/tree/master/0372-super-pow) |
 | [0400-nth-digit](https://github.com/Aditya2600/Leetcode/tree/master/0400-nth-digit) |
 | [0507-perfect-number](https://github.com/Aditya2600/Leetcode/tree/master/0507-perfect-number) |
 | [0650-2-keys-keyboard](https://github.com/Aditya2600/Leetcode/tree/master/0650-2-keys-keyboard) |
@@ -777,6 +778,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/Aditya2600/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/Aditya2600/Leetcode/tree/master/0053-maximum-subarray) |
 | [0347-top-k-frequent-elements](https://github.com/Aditya2600/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0372-super-pow](https://github.com/Aditya2600/Leetcode/tree/master/0372-super-pow) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Aditya2600/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 | [1014-k-closest-points-to-origin](https://github.com/Aditya2600/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Bucket Sort
