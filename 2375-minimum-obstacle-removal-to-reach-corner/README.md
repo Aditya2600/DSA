@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner">2375. Minimum Obstacle Removal to Reach Corner</a></h2><h3>Hard</h3><hr><p>You are given a <strong>0-indexed</strong> 2D integer array <code>grid</code> of size <code>m x n</code>. Each cell has one of two values:</p>
+<h2><a href="https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner">Minimum Obstacle Removal to Reach Corner</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>You are given a <strong>0-indexed</strong> 2D integer array <code>grid</code> of size <code>m x n</code>. Each cell has one of two values:</p>
 
 <ul>
 	<li><code>0</code> represents an <strong>empty</strong> cell,</li>
