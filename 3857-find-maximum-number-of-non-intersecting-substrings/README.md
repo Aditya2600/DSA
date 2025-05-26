@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/find-maximum-number-of-non-intersecting-substrings">3857. Find Maximum Number of Non Intersecting Substrings</a></h2><h3>Medium</h3><hr><p>You are given a string <code>word</code>.</p>
+<h2><a href="https://leetcode.com/problems/find-maximum-number-of-non-intersecting-substrings">Find Maximum Number of Non Intersecting Substrings</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a string <code>word</code>.</p>
 
 <p>Return the <strong>maximum</strong> number of non-intersecting <strong><span data-keyword="substring-nonempty">substrings</span></strong> of word that are at <strong>least</strong> four characters long and start and end with the same letter.</p>
 
