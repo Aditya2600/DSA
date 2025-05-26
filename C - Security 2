@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void solve() {
+    string s;
+    cin >> s;
+
+    int res = s.size() + (s[0] - '0');  // A presses + initial B presses to make first digit
+    int prev = s[0] - '0';
+
+    for (int i = 1; i < s.size(); i++) {
+        int curr = s[i] - '0';
+        if (curr <= prev) {
+            prev = curr;
+            continue;
+        }
+        res += 10;  // Extra B cycle needed to reach higher digit from smaller one
+        prev = curr;
+    }
+
+    cout << res << "\n";
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    solve();
+    return 0;
+}
