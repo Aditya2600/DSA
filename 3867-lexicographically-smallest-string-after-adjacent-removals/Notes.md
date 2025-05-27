@@ -1,0 +1,1 @@
+<h2>lexicographically-smallest-string-after-adjacent-removals Notes</h2><hr>[ Time taken: 45 m 1 s ]
