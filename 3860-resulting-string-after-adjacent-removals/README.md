@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/resulting-string-after-adjacent-removals">3860. Resulting String After Adjacent Removals</a></h2><h3>Medium</h3><hr><p>You are given a string <code>s</code> consisting of lowercase English letters.</p>
+<h2><a href="https://leetcode.com/problems/resulting-string-after-adjacent-removals">Resulting String After Adjacent Removals</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a string <code>s</code> consisting of lowercase English letters.</p>
 
 <p>You <strong>must</strong> repeatedly perform the following operation while the string <code>s</code> has <strong>at least</strong> two <strong>consecutive </strong>characters:</p>
 
