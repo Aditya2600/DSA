@@ -384,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3303-find-beautiful-indices-in-the-given-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3303-find-beautiful-indices-in-the-given-array-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Aditya2600/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3860-resulting-string-after-adjacent-removals](https://github.com/Aditya2600/Leetcode/tree/master/3860-resulting-string-after-adjacent-removals) |
+| [3867-lexicographically-smallest-string-after-adjacent-removals](https://github.com/Aditya2600/Leetcode/tree/master/3867-lexicographically-smallest-string-after-adjacent-removals) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -456,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3443-maximum-total-reward-using-operations-ii](https://github.com/Aditya2600/Leetcode/tree/master/3443-maximum-total-reward-using-operations-ii) |
 | [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/Aditya2600/Leetcode/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Aditya2600/Leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
+| [3867-lexicographically-smallest-string-after-adjacent-removals](https://github.com/Aditya2600/Leetcode/tree/master/3867-lexicographically-smallest-string-after-adjacent-removals) |
 ## Backtracking
 |  |
 | ------- |
