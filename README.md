@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Aditya2600/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3809-properties-graph](https://github.com/Aditya2600/Leetcode/tree/master/3809-properties-graph) |
 | [3837-grid-teleportation-traversal](https://github.com/Aditya2600/Leetcode/tree/master/3837-grid-teleportation-traversal) |
+| [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Aditya2600/Leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/Aditya2600/Leetcode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 ## Depth-First Search
 |  |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Aditya2600/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2793-count-the-number-of-complete-components](https://github.com/Aditya2600/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [3809-properties-graph](https://github.com/Aditya2600/Leetcode/tree/master/3809-properties-graph) |
+| [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Aditya2600/Leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -452,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3442-maximum-total-reward-using-operations-i](https://github.com/Aditya2600/Leetcode/tree/master/3442-maximum-total-reward-using-operations-i) |
 | [3443-maximum-total-reward-using-operations-ii](https://github.com/Aditya2600/Leetcode/tree/master/3443-maximum-total-reward-using-operations-ii) |
 | [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/Aditya2600/Leetcode/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
+| [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Aditya2600/Leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 ## Backtracking
 |  |
 | ------- |
@@ -505,6 +508,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-find-missing-and-repeated-values](https://github.com/Aditya2600/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3321-type-of-triangle](https://github.com/Aditya2600/Leetcode/tree/master/3321-type-of-triangle) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
+| [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Aditya2600/Leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 ## Tree
 |  |
 | ------- |
@@ -518,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya2600/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Aditya2600/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Aditya2600/Leetcode/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Aditya2600/Leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 ## Binary Search Tree
 |  |
 | ------- |
