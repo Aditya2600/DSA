@@ -19,34 +19,43 @@ public:
     //     return dist;
     // }
     int closestMeetingNode(vector<int>& edges, int node1, int node2) {
-        int n = edges.size();
-        queue<pair<int, int>> q;
-        vector<vector<int>> dis(n, vector<int> (2, -1));
-        dis[node1][0] = 0;
-        dis[node2][1] = 0;
-        q.push({node1, 0});
-        q.push({node2, 1});
-        while(!q.empty()){
-            auto& [curr, type] = q.front();
-            
-            if(edges[curr] != -1 && dis[edges[curr]][type] == -1){
-                dis[edges[curr]][type] = 1 + dis[curr][type];
-                q.push({edges[curr], type});
+    int n = edges.size();
+    queue<pair<int, int>> q;
+    vector<vector<int>> dis(n, vector<int>(2, -1));
+
+    dis[node1][0] = 0;
+    dis[node2][1] = 0;
+
+    q.push({node1, 0});
+    q.push({node2, 1});
+
+    while (!q.empty()) {
+        auto [curr, type] = q.front();
+        q.pop();
+
+        int next = edges[curr];
+        if (next != -1 && dis[next][type] == -1) {
+            dis[next][type] = dis[curr][type] + 1;
+            q.push({next, type});
+        }
+    }
+
+    int meeting_distance = INT_MAX;
+    int meeting_point = INT_MAX;
+
+    for (int i = 0; i < n; i++) {
+        if (dis[i][0] != -1 && dis[i][1] != -1) {
+            int curr_distance = max(dis[i][0], dis[i][1]);
+            if (curr_distance < meeting_distance ||
+                (curr_distance == meeting_distance && i < meeting_point)) {
+                meeting_distance = curr_distance;
+                meeting_point = i;
             }
-            q.pop();
         }
-        int meeting_distance = INT_MAX;
-        int meeting_point = INT_MAX;
-        for(int i=0; i<n; i++){
-            if(dis[i][0] != -1 && dis[i][1] != -1){
-                int curr_distance = max(dis[i][0],dis[i][1]);
-                if(curr_distance < meeting_distance){
-                    meeting_distance = curr_distance;
-                    meeting_point = i;
-                }
-            }           
-        }
-        return meeting_point == INT_MAX ? -1 : meeting_point;
+    }
+
+    return meeting_point == INT_MAX ? -1 : meeting_point;
+
         // int n = edges.size();       
         // vector<int> dis1 = bfs(node1, edges);
         // vector<int> dis2 = bfs(node2, edges);
