@@ -27,13 +27,13 @@ public:
         q.push({node1, 0});
         q.push({node2, 1});
         while(!q.empty()){
-            auto& [curr, type] = q.front();
-            
+            auto [curr, type] = q.front();
+            q.pop();
             if(edges[curr] != -1 && dis[edges[curr]][type] == -1){
                 dis[edges[curr]][type] = 1 + dis[curr][type];
                 q.push({edges[curr], type});
             }
-            q.pop();
+            
         }
         int meeting_distance = INT_MAX;
         int meeting_point = INT_MAX;
