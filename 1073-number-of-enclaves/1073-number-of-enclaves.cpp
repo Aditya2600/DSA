@@ -1,45 +1,52 @@
 class Solution {
 public:
+    
+    vector<vector<bool>> vis;
+    int bfs(int x, int y, vector<vector<int>>& grid){
+        queue<pair<int, int>> q;
+        int n = grid.size();
+        int m = grid[0].size();
+        q.push({x, y});
+        vis[x][y] = true;
+        int dx[] = {1, 0, -1, 0};
+        int dy[] = {0, 1, 0, -1};
+        int walks = 1;
+        while(!q.empty()){
+            auto [r, c] = q.front();
+            q.pop();
+            for(int i=0; i<4; i++){
+                int nr = r + dx[i];
+                int nc = c + dy[i];               
+                if(nr < n && nr >= 0 && nc < m && nc >= 0 && grid[nr][nc] == 1 && !vis[nr][nc]){
+                    q.push({nr, nc});
+                    vis[nr][nc] = true;
+                    walks++;
+                }
+                
+            }
+        }
+        return walks;
+    }
     int numEnclaves(vector<vector<int>>& grid) {
         int n = grid.size();
         int m = grid[0].size();
-        queue<pair<int, int>> qu;
-        vector<vector<int>> vis(n, vector<int>(m, 0));
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (i == 0 || i == n - 1 || j == 0 || j == m - 1) {
-                    if (grid[i][j] == 1 && vis[i][j] == 0) {
-                        qu.push({i, j});
-                        vis[i][j] = 1;
-                    }
+        int ans = 0;
+        vis.resize(n, vector<bool> (m, false));
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                if(grid[i][j] == 1 && (i == 0 || i == n-1 || j == 0 || j == m-1) && !vis[i][j]){
+                    ans += bfs(i, j, grid);
                 }
             }
         }
-        int delrow[] = {-1, 0, 1, 0};
-        int delcol[] = {0, +1, 0, -1};
-        while (!qu.empty()) {
-            int row = qu.front().first;
-            int col = qu.front().second;
-            qu.pop();
-
-            for (int i = 0; i < 4; i++) {
-                int newr = row + delrow[i];
-                int newc = col + delcol[i];
-                if (newr >= 0 && newr < n && newc >= 0 && newc < m &&
-                    grid[newr][newc] == 1 && vis[newr][newc] == 0) {
-                    qu.push({newr, newc});
-                    vis[newr][newc] = 1;
+        int cnt1 = 0;
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                if(grid[i][j] == 1){
+                    cnt1++;
                 }
             }
         }
-            int cnt = 0;
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < m; j++) {
-                    if (grid[i][j] == 1 && vis[i][j] == 0) {
-                        cnt++;
-                    }
-                }
-            }
-            return cnt;
-        }
-    };
+        return cnt1 - ans;
+    }
+};
