@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/Aditya2600/Leetcode/tree/master/0854-making-a-large-island) |
 | [0876-hand-of-straights](https://github.com/Aditya2600/Leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Aditya2600/Leetcode/tree/master/0890-lemonade-change) |
+| [0945-snakes-and-ladders](https://github.com/Aditya2600/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Aditya2600/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 | [0966-binary-subarrays-with-sum](https://github.com/Aditya2600/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/Aditya2600/Leetcode/tree/master/0967-minimum-falling-path-sum) |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/Aditya2600/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Aditya2600/Leetcode/tree/master/0854-making-a-large-island) |
 | [0871-keys-and-rooms](https://github.com/Aditya2600/Leetcode/tree/master/0871-keys-and-rooms) |
+| [0945-snakes-and-ladders](https://github.com/Aditya2600/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [0971-shortest-bridge](https://github.com/Aditya2600/Leetcode/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/Aditya2600/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Aditya2600/Leetcode/tree/master/1073-number-of-enclaves) |
@@ -236,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Aditya2600/Leetcode/tree/master/0733-flood-fill) |
 | [0794-swim-in-rising-water](https://github.com/Aditya2600/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/Aditya2600/Leetcode/tree/master/0854-making-a-large-island) |
+| [0945-snakes-and-ladders](https://github.com/Aditya2600/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [0967-minimum-falling-path-sum](https://github.com/Aditya2600/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [0971-shortest-bridge](https://github.com/Aditya2600/Leetcode/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/Aditya2600/Leetcode/tree/master/1036-rotting-oranges) |
