@@ -541,6 +541,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-find-missing-and-repeated-values](https://github.com/Aditya2600/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3321-type-of-triangle](https://github.com/Aditya2600/Leetcode/tree/master/3321-type-of-triangle) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
+| [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/Aditya2600/Leetcode/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Aditya2600/Leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 ## Tree
 |  |
@@ -710,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Aditya2600/Leetcode/tree/master/0062-unique-paths) |
+| [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/Aditya2600/Leetcode/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 ## Recursion
 |  |
 | ------- |
