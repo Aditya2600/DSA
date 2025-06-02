@@ -1,27 +1,22 @@
 class Solution {
 public:
-    using ll = long long;
-
-    ll C(ll n) {
-        if (n < 0)
-            return 0;
-        return n * (n - 1) / 2;
+    long long ncr(int n, int r){
+        if (n < r || r < 0) return 0;
+        long long ans = 1;
+        for(int i=1; i<=(min(r, n-r)); i++){
+            ans = (ans * (n-i+1))/i;
+        }
+        return ans;
     }
-
     long long distributeCandies(int n, int limit) {
-        ll total = C(n + 2);
+        long long all_combinations = ncr(n+2, 2);
+        long long one_above_limit = 3LL * ncr(n-limit+1, 2);
+        long long two_above_limit = 3LL * ncr(n-2*limit, 2);
+        long long three_above_limit = ncr(n-3*limit-1, 2);
 
-        ll overA = C(n - limit + 1);
-        ll overB = overA; // same
-        ll overC = overA;
+        long long invalid_combination = one_above_limit - two_above_limit + three_above_limit;
+        long long valid_combination = all_combinations - invalid_combination;
+        return valid_combination;
 
-        ll overAB = C(n - 2 * limit);
-        ll overAC = overAB;
-        ll overBC = overAB;
-
-        ll overABC = C(n - 3 * limit - 1);
-
-        return total - (overA + overB + overC) + (overAB + overAC + overBC) -
-               overABC;
     }
 };
