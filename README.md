@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Aditya2600/Leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Aditya2600/Leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1559-cherry-pickup-ii](https://github.com/Aditya2600/Leetcode/tree/master/1559-cherry-pickup-ii) |
+| [1603-running-sum-of-1d-array](https://github.com/Aditya2600/Leetcode/tree/master/1603-running-sum-of-1d-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Aditya2600/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Aditya2600/Leetcode/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Aditya2600/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -704,6 +705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/Aditya2600/Leetcode/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1046-max-consecutive-ones-iii](https://github.com/Aditya2600/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Aditya2600/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1603-running-sum-of-1d-array](https://github.com/Aditya2600/Leetcode/tree/master/1603-running-sum-of-1d-array) |
 | [3427-special-array-ii](https://github.com/Aditya2600/Leetcode/tree/master/3427-special-array-ii) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Aditya2600/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3639-zero-array-transformation-i](https://github.com/Aditya2600/Leetcode/tree/master/3639-zero-array-transformation-i) |
