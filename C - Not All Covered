@@ -1,0 +1,27 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  int n,m;
+  cin>>n>>m;
+  vector<pair<int, int>> t(m);
+  for(int i=0; i<m; i++){
+    cin>>t[i].first>>t[i].second;
+  }
+  vector<int> diffArr(n+2,0);
+  for(auto q : t){
+    diffArr[q.first]++;
+    diffArr[q.second+1]--; 
+  }
+  int prevSum = diffArr[0];
+  int min_troop =  INT_MAX;
+  for(int i=1; i<=n; i++){
+    diffArr[i] = diffArr[i] + prevSum;
+    prevSum = diffArr[i];
+  }
+  for(int i=1; i<=n; i++){
+    min_troop = min(min_troop, diffArr[i]);
+  }
+  cout<<min_troop<<endl;
+  return 0;
+}
