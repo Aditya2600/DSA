@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Aditya2600/Leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 | [3843-partition-array-into-two-equal-product-subsets](https://github.com/Aditya2600/Leetcode/tree/master/3843-partition-array-into-two-equal-product-subsets) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/Aditya2600/Leetcode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
+| [3884-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Aditya2600/Leetcode/tree/master/3884-minimum-absolute-difference-in-sliding-submatrix) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -264,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2722-prime-in-diagonal](https://github.com/Aditya2600/Leetcode/tree/master/2722-prime-in-diagonal) |
 | [3227-find-missing-and-repeated-values](https://github.com/Aditya2600/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3837-grid-teleportation-traversal](https://github.com/Aditya2600/Leetcode/tree/master/3837-grid-teleportation-traversal) |
+| [3884-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Aditya2600/Leetcode/tree/master/3884-minimum-absolute-difference-in-sliding-submatrix) |
 ## Union Find
 |  |
 | ------- |
@@ -863,6 +865,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3647-zero-array-transformation-iii](https://github.com/Aditya2600/Leetcode/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Aditya2600/Leetcode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/Aditya2600/Leetcode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
+| [3884-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Aditya2600/Leetcode/tree/master/3884-minimum-absolute-difference-in-sliding-submatrix) |
 ## Divide and Conquer
 |  |
 | ------- |
