@@ -1,37 +1,42 @@
 class Solution {
 public:
-    // DFS to find the smallest lex character in the component
-    char dfs(unordered_map<char, vector<char>>& adj, char cur, vector<int>& vis) {
-        vis[cur - 'a'] = 1;
-        char minChar = cur;
-        for (char neighbor : adj[cur]) {
-            if (vis[neighbor - 'a'] == 0) {
-                minChar = min(minChar, dfs(adj, neighbor, vis));
-            }
+    vector<int> parent;
+    void initDSU() {
+
+        parent.resize(26, 0);
+        for (int i = 0; i < 26; i++) {
+            parent[i] = i;
         }
-        return minChar;
     }
-
+    char findUPar(int x) {
+        if (x == parent[x]) {
+            return x;
+        }
+        return parent[x] = findUPar(parent[x]);
+    }
+    void UnionByRank(int c1, int c2) {
+        int ulp_c1 = findUPar(c1);
+        int ulp_c2 = findUPar(c2);
+        if (ulp_c1 == ulp_c2)
+            return;
+        if (ulp_c2 < ulp_c1) {
+            parent[ulp_c1] = ulp_c2;
+        } else
+            parent[ulp_c2] = ulp_c1;
+    }
     string smallestEquivalentString(string s1, string s2, string baseStr) {
-        int n = s1.length();
-        unordered_map<char, vector<char>> adj;
-
-        // Step 1: Build the equivalence graph
-        for (int i = 0; i < n; ++i) {
-            char u = s1[i];
-            char v = s2[i];
-            adj[u].push_back(v);
-            adj[v].push_back(u);
+        initDSU();
+        vector<vector<int>> adj;
+        int n = s1.size();    
+        
+        for (int i = 0; i < n; i++) {
+            UnionByRank(s1[i] - 'a', s2[i] - 'a');
         }
-
-        // Step 2: Replace each character in baseStr with the smallest equivalent
-        string result;
-        for (char ch : baseStr) {
-            vector<int> vis(26, 0);
-            char minChar = dfs(adj, ch, vis);
-            result.push_back(minChar);
+        string ans = "";
+        for (int i = 0; i < baseStr.size(); i++) {           
+            int root = findUPar(baseStr[i] - 'a');
+            ans += (char)(root + 'a');
         }
-
-        return result;
+        return ans;
     }
 };
