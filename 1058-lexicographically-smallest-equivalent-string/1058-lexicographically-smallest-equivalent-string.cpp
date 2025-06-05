@@ -26,7 +26,6 @@ public:
     }
     string smallestEquivalentString(string s1, string s2, string baseStr) {
         initDSU();
-        vector<vector<int>> adj;
         int n = s1.size();    
         
         for (int i = 0; i < n; i++) {
