@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3809-properties-graph](https://github.com/Aditya2600/Leetcode/tree/master/3809-properties-graph) |
 | [3837-grid-teleportation-traversal](https://github.com/Aditya2600/Leetcode/tree/master/3837-grid-teleportation-traversal) |
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Aditya2600/Leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
+| [3843-partition-array-into-two-equal-product-subsets](https://github.com/Aditya2600/Leetcode/tree/master/3843-partition-array-into-two-equal-product-subsets) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/Aditya2600/Leetcode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 ## Depth-First Search
 |  |
@@ -738,6 +739,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/Aditya2600/Leetcode/tree/master/0050-powx-n) |
 | [1013-fibonacci-number](https://github.com/Aditya2600/Leetcode/tree/master/1013-fibonacci-number) |
 | [1197-parsing-a-boolean-expression](https://github.com/Aditya2600/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
+| [3843-partition-array-into-two-equal-product-subsets](https://github.com/Aditya2600/Leetcode/tree/master/3843-partition-array-into-two-equal-product-subsets) |
 ## Greedy
 |  |
 | ------- |
@@ -792,6 +794,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Aditya2600/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3443-maximum-total-reward-using-operations-ii](https://github.com/Aditya2600/Leetcode/tree/master/3443-maximum-total-reward-using-operations-ii) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Aditya2600/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3843-partition-array-into-two-equal-product-subsets](https://github.com/Aditya2600/Leetcode/tree/master/3843-partition-array-into-two-equal-product-subsets) |
 ## String Matching
 |  |
 | ------- |
@@ -907,6 +910,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2482-maximum-rows-covered-by-columns](https://github.com/Aditya2600/Leetcode/tree/master/2482-maximum-rows-covered-by-columns) |
 | [3201-distribute-candies-among-children-ii](https://github.com/Aditya2600/Leetcode/tree/master/3201-distribute-candies-among-children-ii) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Aditya2600/Leetcode/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
+| [3843-partition-array-into-two-equal-product-subsets](https://github.com/Aditya2600/Leetcode/tree/master/3843-partition-array-into-two-equal-product-subsets) |
 ## Simulation
 |  |
 | ------- |
