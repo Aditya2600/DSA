@@ -1,32 +1,30 @@
 class Solution {
 public:
-    string robotWithString(string s) {
-        vector<int> freq(26, 0);
-        for (char c : s) {
-            freq[c - 'a']++;
-        }
-
-        string result = "";
-        string t = "";
-
-        for (char c : s) {
-            t.push_back(c);
-            freq[c - 'a']--;
-
-            // Find the smallest character remaining in s
-            while (!t.empty()) {
-                char minChar = 0;
-                while (minChar < 26 && freq[minChar] == 0) minChar++;
-
-                if (!t.empty() && (minChar == 26 || t.back() <= 'a' + minChar)) {
-                    result += t.back();
-                    t.pop_back();
-                } else {
-                    break;
-                }
+    inline char smallest(vector<int>& right_freq){
+        for(int i=0; i<26; i++){
+            if(right_freq[i] > 0){
+                return char(97+i);
             }
         }
-
-        return result;
+        return 'z';
+    }
+    string robotWithString(string s) {
+        int n = s.size();
+        vector<int> right_freq(26, 0);
+        for(int i=0; i<n; i++){
+            right_freq[s[i]-'a']++;
+        }
+        string t, res;
+        int pos = 0;
+        while(pos<n){
+            t.push_back(s[pos]);
+            right_freq[s[pos]-'a']--;
+            while(!t.empty() and t.back() <= smallest(right_freq)){
+                res.push_back(t.back());
+                t.pop_back();
+            }
+            pos++;
+        }
+        return res;
     }
 };
