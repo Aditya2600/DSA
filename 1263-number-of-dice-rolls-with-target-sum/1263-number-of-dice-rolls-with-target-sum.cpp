@@ -1,31 +1,21 @@
-#define ll long long int
+#define mod 1000000007
 class Solution {
 public:
-    /*int helper(int n, int k, int target, int mod, vector<vector<int>> &dp){
-        if(target == 0 && n == 0) return 1;
+    vector<vector<long long>> dp;
+    int f(int n, int k, int t){
+        if(n == 0 && t == 0) return 1;
         if(n == 0) return 0;
-        if(dp[n][target] != -1) return dp[n][target];
+        if(dp[n][t] != -1) return dp[n][t];
         int sum = 0;
-        for(int i=1; i<=k; i++){
-            if(target - i < 0) continue;
-            sum = ((sum % mod) + helper(n-1, k, target - i, mod, dp))%mod;
+        for(int v = 1; v<=k; v++){
+            if(t - v < 0) continue;
+            sum = ((sum%mod) + f(n-1, k, t-v)%mod)%mod;
         }
-        return dp[n][target] = sum % mod;
-    }*/
+        return dp[n][t] = sum;
+    }
     int numRollsToTarget(int n, int k, int target) {
-        int mod = 1e9 + 7;
-        vector<vector<int>> dp(35,vector<int> (1005,0));
-        dp[0][0] = 1;
-        for(int dice=1; dice<=n; dice++){
-            for(int j=1; j<=target; j++){
-            
-            for(int face=1; face<=k; face++){
-                if(j - face >= 0){
-                dp[dice][j] = (dp[dice][j] % mod + dp[dice-1][j - face]%mod) % mod;
-            }
-            }
-        }
-        }
-        return dp[n][target];
+        dp.clear();
+        dp.resize(35, vector<long long> (1005, -1));
+        return f(n, k, target);
     }
 };
