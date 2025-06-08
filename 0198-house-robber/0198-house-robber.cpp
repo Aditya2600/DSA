@@ -1,27 +1,17 @@
 class Solution {
 public:
     vector<int> dp;
-    int ftd(vector<int> &arr,int i){
-        if(i == arr.size()-1) return arr[i];
-        if(i == arr.size()-2) return max(arr[i],arr[i+1]);
-        if(dp[i]!=-1) return dp[i];
-        return dp[i] = max((arr[i] + ftd(arr,i+2)),0 + ftd(arr,i+1));
-    }
-    int fbu(vector<int> &arr, int i){
-        int n = arr.size();
-        if(n == 1) return arr[0];
-        dp.clear();
-        dp.resize(n);
-        dp[n-1] = arr[n-1];
-        dp[n-2] = max(dp[n-1],dp[n-2]);
-        for(int i = n-3; i >= 0; i--){
-            dp[i] = max(arr[i] + dp[i+2],0 + dp[i+1]);
-        }
-        return dp[0];
+    int f(int ind, vector<int>& nums){
+        int n = nums.size();
+        if(dp[ind] != -1) return dp[ind];
+        if(ind == n-1) return nums[ind];
+        if(ind == n-2) return max(nums[ind], nums[ind+1]);
+        int take = nums[ind] + f(ind+2, nums);
+        int notTake = f(ind+1, nums);
+        return dp[ind] = max(take, notTake);
     }
     int rob(vector<int>& nums) {
-        dp.clear();
-        dp.resize(101,-1);
-        return ftd(nums,0);
+        dp.resize(nums.size()+1, -1);
+        return f(0, nums);
     }
 };
