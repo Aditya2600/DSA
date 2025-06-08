@@ -34,7 +34,7 @@ int fbu(int num){
     for(int i=1; i<10; i++){
         dp[i] = 1;
     }
-    for(int n=10; n<num; n++){
+    for(int n=10; n<=num; n++){
         dp[n] = INT_MAX;
         vector<int> d = get_digit(n);
         for(int i = 0; i<d.size(); i++){
@@ -50,6 +50,6 @@ int main() {
     int n;
     cin >> n;
     dp.resize(1000005, -1);
-    cout<<f(n)<<endl;
+    cout<<fbu(n)<<endl;
     return 0;
 }
