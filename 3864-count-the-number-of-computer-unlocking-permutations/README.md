@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations">3864. Count the Number of Computer Unlocking Permutations</a></h2><h3>Medium</h3><hr><p>You are given an array <code>complexity</code> of length <code>n</code>.</p>
+<h2><a href="https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations">Count the Number of Computer Unlocking Permutations</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an array <code>complexity</code> of length <code>n</code>.</p>
 
 <p>There are <code>n</code> <strong>locked</strong> computers in a room with labels from 0 to <code>n - 1</code>, each with its own <strong>unique</strong> password. The password of the computer <code>i</code> has a complexity <code>complexity[i]</code>.</p>
 
