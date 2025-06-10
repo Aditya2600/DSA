@@ -375,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Aditya2600/Leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Aditya2600/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Aditya2600/Leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Aditya2600/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3809-properties-graph](https://github.com/Aditya2600/Leetcode/tree/master/3809-properties-graph) |
 | [3837-grid-teleportation-traversal](https://github.com/Aditya2600/Leetcode/tree/master/3837-grid-teleportation-traversal) |
@@ -427,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Aditya2600/Leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Aditya2600/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Aditya2600/Leetcode/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Aditya2600/Leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3860-resulting-string-after-adjacent-removals](https://github.com/Aditya2600/Leetcode/tree/master/3860-resulting-string-after-adjacent-removals) |
 | [3867-lexicographically-smallest-string-after-adjacent-removals](https://github.com/Aditya2600/Leetcode/tree/master/3867-lexicographically-smallest-string-after-adjacent-removals) |
 ## Dynamic Programming
@@ -905,6 +907,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2308-divide-array-into-equal-pairs](https://github.com/Aditya2600/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Aditya2600/Leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Quickselect
 |  |
 | ------- |
