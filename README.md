@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0971-shortest-bridge](https://github.com/Aditya2600/Leetcode/tree/master/0971-shortest-bridge) |
 | [0980-find-the-shortest-superstring](https://github.com/Aditya2600/Leetcode/tree/master/0980-find-the-shortest-superstring) |
 | [1014-k-closest-points-to-origin](https://github.com/Aditya2600/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1022-unique-paths-iii](https://github.com/Aditya2600/Leetcode/tree/master/1022-unique-paths-iii) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Aditya2600/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/Aditya2600/Leetcode/tree/master/1036-rotting-oranges) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/Aditya2600/Leetcode/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
@@ -250,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0945-snakes-and-ladders](https://github.com/Aditya2600/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [0967-minimum-falling-path-sum](https://github.com/Aditya2600/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [0971-shortest-bridge](https://github.com/Aditya2600/Leetcode/tree/master/0971-shortest-bridge) |
+| [1022-unique-paths-iii](https://github.com/Aditya2600/Leetcode/tree/master/1022-unique-paths-iii) |
 | [1036-rotting-oranges](https://github.com/Aditya2600/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Aditya2600/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1104-coloring-a-border](https://github.com/Aditya2600/Leetcode/tree/master/1104-coloring-a-border) |
@@ -518,6 +520,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/Aditya2600/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0140-word-break-ii](https://github.com/Aditya2600/Leetcode/tree/master/0140-word-break-ii) |
 | [0494-target-sum](https://github.com/Aditya2600/Leetcode/tree/master/0494-target-sum) |
+| [1022-unique-paths-iii](https://github.com/Aditya2600/Leetcode/tree/master/1022-unique-paths-iii) |
 | [2482-maximum-rows-covered-by-columns](https://github.com/Aditya2600/Leetcode/tree/master/2482-maximum-rows-covered-by-columns) |
 ## Trie
 |  |
@@ -805,6 +808,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Aditya2600/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Aditya2600/Leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0980-find-the-shortest-superstring](https://github.com/Aditya2600/Leetcode/tree/master/0980-find-the-shortest-superstring) |
+| [1022-unique-paths-iii](https://github.com/Aditya2600/Leetcode/tree/master/1022-unique-paths-iii) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/Aditya2600/Leetcode/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/Aditya2600/Leetcode/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Aditya2600/Leetcode/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
