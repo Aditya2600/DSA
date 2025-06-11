@@ -12,7 +12,14 @@ public:
         return dp[n] =  sum;
     }
     int numTrees(int n) {
-        memset(dp, -1, sizeof dp);
-        return f(n);
+        memset(dp, 0, sizeof dp);
+        dp[0] = dp[1] = 1;
+        dp[2] = 2;
+        for(int i=3; i<=n; i++){
+            for(int k=1; k<=i; k++){
+                dp[i] = dp[i] + dp[k-1]*dp[i-k];
+            }
+        }
+        return dp[n];
     }
 };
