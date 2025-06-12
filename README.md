@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3639-zero-array-transformation-i](https://github.com/Aditya2600/Leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3647-zero-array-transformation-iii](https://github.com/Aditya2600/Leetcode/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Aditya2600/Leetcode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+| [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/Aditya2600/Leetcode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Aditya2600/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3809-properties-graph](https://github.com/Aditya2600/Leetcode/tree/master/3809-properties-graph) |
 | [3837-grid-teleportation-traversal](https://github.com/Aditya2600/Leetcode/tree/master/3837-grid-teleportation-traversal) |
