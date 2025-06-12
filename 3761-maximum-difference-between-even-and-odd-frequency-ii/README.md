@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii">3761. Maximum Difference Between Even and Odd Frequency II</a></h2><h3>Hard</h3><hr><p>You are given a string <code>s</code> and an integer <code>k</code>. Your task is to find the <strong>maximum</strong> difference between the frequency of <strong>two</strong> characters, <code>freq[a] - freq[b]</code>, in a <span data-keyword="substring">substring</span> <code>subs</code> of <code>s</code>, such that:</p>
+<h2><a href="https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii">Maximum Difference Between Even and Odd Frequency II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>You are given a string <code>s</code> and an integer <code>k</code>. Your task is to find the <strong>maximum</strong> difference between the frequency of <strong>two</strong> characters, <code>freq[a] - freq[b]</code>, in a <span data-keyword="substring">substring</span> <code>subs</code> of <code>s</code>, such that:</p>
 
 <ul>
 	<li><code>subs</code> has a size of <strong>at least</strong> <code>k</code>.</li>
