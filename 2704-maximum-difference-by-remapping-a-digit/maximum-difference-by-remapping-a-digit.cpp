@@ -26,10 +26,6 @@ public:
                 s2[i] = '0';
             }
         }
-        int ans;
-        if(!s2.empty()){
-             ans = stoi(s1) - stoi(s2);
-        }
-        return ans;
+        return stoi(s1) - stoi(s2);;
     }
 };
