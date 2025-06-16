@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/Aditya2600/Leetcode/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/Aditya2600/Leetcode/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/Aditya2600/Leetcode/tree/master/2106-find-greatest-common-divisor-of-array) |
+| [2144-maximum-difference-between-increasing-elements](https://github.com/Aditya2600/Leetcode/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Aditya2600/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Aditya2600/Leetcode/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Aditya2600/Leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
