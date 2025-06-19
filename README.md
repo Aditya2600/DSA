@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2308-divide-array-into-equal-pairs](https://github.com/Aditya2600/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2360-substring-with-largest-variance](https://github.com/Aditya2600/Leetcode/tree/master/2360-substring-with-largest-variance) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Aditya2600/Leetcode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Aditya2600/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Aditya2600/Leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/Aditya2600/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2478-longest-nice-subarray](https://github.com/Aditya2600/Leetcode/tree/master/2478-longest-nice-subarray) |
@@ -818,6 +819,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Aditya2600/Leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1503-reducing-dishes](https://github.com/Aditya2600/Leetcode/tree/master/1503-reducing-dishes) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Aditya2600/Leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Aditya2600/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/Aditya2600/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Aditya2600/Leetcode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2591-frog-jump-ii](https://github.com/Aditya2600/Leetcode/tree/master/2591-frog-jump-ii) |
@@ -919,6 +921,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1777-determine-if-two-strings-are-close](https://github.com/Aditya2600/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Aditya2600/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Aditya2600/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/Aditya2600/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2554-minimum-total-distance-traveled](https://github.com/Aditya2600/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Aditya2600/Leetcode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
