@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/palindrome-partitioning-iii">1403. Palindrome Partitioning III</a></h2><h3>Hard</h3><hr><p>You are given a string <code>s</code> containing lowercase letters and an integer <code>k</code>. You need to :</p>
+<h2><a href="https://leetcode.com/problems/palindrome-partitioning-iii">Palindrome Partitioning III</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>You are given a string <code>s</code> containing lowercase letters and an integer <code>k</code>. You need to :</p>
 
 <ul>
 	<li>First, change some characters of <code>s</code> to other lowercase English letters.</li>
