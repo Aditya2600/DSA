@@ -9,7 +9,7 @@ public:
         }
         return cnt;
     }
-    int f(int i, string s, int k, int cnt, int n, vector<vector<int>>& dp) {
+    int f(int i, string& s, int k, int cnt, int n, vector<vector<int>>& dp) {
         if (i == n && cnt == k) {
             return 0;
         }
