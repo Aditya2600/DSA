@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/palindrome-partitioning-iv">1871. Palindrome Partitioning IV</a></h2><h3>Hard</h3><hr><p>Given a string <code>s</code>, return <code>true</code> <em>if it is possible to split the string</em> <code>s</code> <em>into three <strong>non-empty</strong> palindromic substrings. Otherwise, return </em><code>false</code>.​​​​​</p>
+<h2><a href="https://leetcode.com/problems/palindrome-partitioning-iv">Palindrome Partitioning IV</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>Given a string <code>s</code>, return <code>true</code> <em>if it is possible to split the string</em> <code>s</code> <em>into three <strong>non-empty</strong> palindromic substrings. Otherwise, return </em><code>false</code>.​​​​​</p>
 
 <p>A string is said to be palindrome if it the same string when reversed.</p>
 
