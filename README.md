@@ -392,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Aditya2600/Leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Aditya2600/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Aditya2600/Leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
+| [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Aditya2600/Leetcode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Aditya2600/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3809-properties-graph](https://github.com/Aditya2600/Leetcode/tree/master/3809-properties-graph) |
 | [3837-grid-teleportation-traversal](https://github.com/Aditya2600/Leetcode/tree/master/3837-grid-teleportation-traversal) |
@@ -445,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Aditya2600/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Aditya2600/Leetcode/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Aditya2600/Leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
+| [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Aditya2600/Leetcode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Aditya2600/Leetcode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3860-resulting-string-after-adjacent-removals](https://github.com/Aditya2600/Leetcode/tree/master/3860-resulting-string-after-adjacent-removals) |
 | [3867-lexicographically-smallest-string-after-adjacent-removals](https://github.com/Aditya2600/Leetcode/tree/master/3867-lexicographically-smallest-string-after-adjacent-removals) |
@@ -591,6 +593,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3321-type-of-triangle](https://github.com/Aditya2600/Leetcode/tree/master/3321-type-of-triangle) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/Aditya2600/Leetcode/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
+| [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Aditya2600/Leetcode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Aditya2600/Leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 ## Tree
 |  |
@@ -958,6 +961,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Aditya2600/Leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
+| [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Aditya2600/Leetcode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Quickselect
 |  |
 | ------- |
