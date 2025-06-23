@@ -590,6 +590,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1925-count-nice-pairs-in-an-array](https://github.com/Aditya2600/Leetcode/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/Aditya2600/Leetcode/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Aditya2600/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2202-sum-of-k-mirror-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [2595-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Aditya2600/Leetcode/tree/master/2595-smallest-value-after-replacing-with-sum-of-prime-factors) |
 | [2609-distinct-prime-factors-of-product-of-array](https://github.com/Aditya2600/Leetcode/tree/master/2609-distinct-prime-factors-of-product-of-array) |
@@ -990,6 +991,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Aditya2600/Leetcode/tree/master/0204-count-primes) |
+| [2202-sum-of-k-mirror-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2482-maximum-rows-covered-by-columns](https://github.com/Aditya2600/Leetcode/tree/master/2482-maximum-rows-covered-by-columns) |
 | [3201-distribute-candies-among-children-ii](https://github.com/Aditya2600/Leetcode/tree/master/3201-distribute-candies-among-children-ii) |
