@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Aditya2600/Leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/Aditya2600/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2478-longest-nice-subarray](https://github.com/Aditya2600/Leetcode/tree/master/2478-longest-nice-subarray) |
+| [2479-meeting-rooms-iii](https://github.com/Aditya2600/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2482-maximum-rows-covered-by-columns](https://github.com/Aditya2600/Leetcode/tree/master/2482-maximum-rows-covered-by-columns) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Aditya2600/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -388,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Aditya2600/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Aditya2600/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Aditya2600/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [2479-meeting-rooms-iii](https://github.com/Aditya2600/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Aditya2600/Leetcode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Aditya2600/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -739,6 +741,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Aditya2600/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Aditya2600/Leetcode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2479-meeting-rooms-iii](https://github.com/Aditya2600/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Aditya2600/Leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3647-zero-array-transformation-iii](https://github.com/Aditya2600/Leetcode/tree/master/3647-zero-array-transformation-iii) |
 ## Shortest Path
@@ -946,6 +949,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Aditya2600/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/Aditya2600/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
+| [2479-meeting-rooms-iii](https://github.com/Aditya2600/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2554-minimum-total-distance-traveled](https://github.com/Aditya2600/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Aditya2600/Leetcode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Aditya2600/Leetcode/tree/master/3307-find-the-maximum-sum-of-node-values) |
@@ -1015,6 +1019,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Aditya2600/Leetcode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
+| [2479-meeting-rooms-iii](https://github.com/Aditya2600/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2595-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Aditya2600/Leetcode/tree/master/2595-smallest-value-after-replacing-with-sum-of-prime-factors) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Aditya2600/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3860-resulting-string-after-adjacent-removals](https://github.com/Aditya2600/Leetcode/tree/master/3860-resulting-string-after-adjacent-removals) |
