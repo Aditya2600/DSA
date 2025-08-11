@@ -59,30 +59,58 @@
 //         return s.substr(startingIndex, max_len);
 //     }
 // };
+// class Solution {
+// public:
+//     string longestPalindrome(string s) {
+//         int n = s.length();
+//         if(n <= 1) return s;
+
+//         int maxlen = 1;
+//         int startIndex = 0;
+//         int end = 0;
+//         vector<vector<bool>> dp(n, vector<bool>(n, false));
+
+//         for(int i=0; i<n; i++){
+//             dp[i][i] = true;
+//             for(int j=0; j<i; j++){
+//                 if(s[i] == s[j] && (j - i <= 2 || dp[j+1][i-1])){
+//                     dp[j][i] = true;
+//                     if(i - j + 1 > maxlen){
+//                         maxlen = i - j + 1;
+//                         startIndex = j;
+//                         end = i;
+//                     }
+//                 }
+//             }
+//         }
+//         return s.substr(startIndex, end - startIndex + 1);
+//     }
+// };
 class Solution {
 public:
     string longestPalindrome(string s) {
         int n = s.length();
-        if(n <= 1) return s;
-
-        int maxlen = 1;
-        int startIndex = 0;
-        int end = 0;
-        vector<vector<bool>> dp(n, vector<bool>(n, false));
-
-        for(int i=0; i<n; i++){
-            dp[i][i] = true;
-            for(int j=0; j<i; j++){
-                if(s[i] == s[j] && (i - j <= 2 || dp[j+1][i-1])){
-                    dp[j][i] = true;
-                    if(i - j + 1 > maxlen){
-                        maxlen = i - j + 1;
-                        startIndex = j;
-                        end = i;
-                    }
-                }
+        if(n <= 1){
+            return s;
+        }
+        auto expand_from_center = [&](int l, int r){
+            while(l >= 0 && r < n && s[l] == s[r]){
+                l--;
+                r++;
+            }
+            return s.substr(l+1, r-l-1);
+        };
+        string max_str = s.substr(0, 1);
+        for(int i=0; i<n-1; i++){
+            string odd = expand_from_center(i, i);
+            string even = expand_from_center(i, i+1);
+            if(max_str.length() < odd.length()){
+                max_str = odd;
+            }
+            if(max_str.length() < even.length()){
+                max_str = even;
             }
         }
-        return s.substr(startIndex, end - startIndex + 1);
+        return max_str;
     }
 };
