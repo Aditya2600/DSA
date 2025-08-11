@@ -30,32 +30,59 @@
 //         return max_str;
 //     }
 // };
+// class Solution {
+// public:
+//     int dp[1001][1001];
+//     bool solve(string &s, int l, int r){
+//         if(l >= r){
+//             return true;
+//         }
+//         if(dp[l][r] != -1) return dp[l][r];
+//         if(s[l] == s[r]){
+//             return dp[l][r] = solve(s, l+1, r-1);
+//         }
+//         return dp[l][r] = false;
+//     }
+//     string longestPalindrome(string s) {
+//         int n = s.length();
+//         int max_len = INT_MIN;
+//         int startingIndex = 0;
+//         memset(dp, -1, sizeof(dp));
+//         for(int i=0; i<n; i++){
+//             for(int j=i; j<n; j++){
+//                 if(solve(s, i, j) && max_len < j-i+1){
+//                     startingIndex = i;
+//                     max_len = j-i+1;
+//                 }
+//             }
+//         }
+//         return s.substr(startingIndex, max_len);
+//     }
+// };
 class Solution {
 public:
-    int dp[1001][1001];
-    bool solve(string &s, int l, int r){
-        if(l >= r){
-            return true;
-        }
-        if(dp[l][r] != -1) return dp[l][r];
-        if(s[l] == s[r]){
-            return dp[l][r] = solve(s, l+1, r-1);
-        }
-        return dp[l][r] = false;
-    }
     string longestPalindrome(string s) {
         int n = s.length();
-        int max_len = INT_MIN;
-        int startingIndex = 0;
-        memset(dp, -1, sizeof(dp));
+        if(n <= 1) return s;
+
+        int maxlen = 1;
+        int startIndex = 0;
+        int end = 0;
+        vector<vector<bool>> dp(n, vector<bool>(n, false));
+
         for(int i=0; i<n; i++){
-            for(int j=i; j<n; j++){
-                if(solve(s, i, j) && max_len < j-i+1){
-                    startingIndex = i;
-                    max_len = j-i+1;
+            dp[i][i] = true;
+            for(int j=0; j<i; j++){
+                if(s[i] == s[j] && (i - j <= 2 || dp[j+1][i-1])){
+                    dp[j][i] = true;
+                    if(i - j + 1 > maxlen){
+                        maxlen = i - j + 1;
+                        startIndex = j;
+                        end = i;
+                    }
                 }
             }
         }
-        return s.substr(startingIndex, max_len);
+        return s.substr(startIndex, end - startIndex + 1);
     }
 };
