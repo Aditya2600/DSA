@@ -540,6 +540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Aditya2600/Leetcode/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2360-substring-with-largest-variance](https://github.com/Aditya2600/Leetcode/tree/master/2360-substring-with-largest-variance) |
 | [2554-minimum-total-distance-traveled](https://github.com/Aditya2600/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
+| [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/Aditya2600/Leetcode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Aditya2600/Leetcode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3442-maximum-total-reward-using-operations-i](https://github.com/Aditya2600/Leetcode/tree/master/3442-maximum-total-reward-using-operations-i) |
 | [3443-maximum-total-reward-using-operations-ii](https://github.com/Aditya2600/Leetcode/tree/master/3443-maximum-total-reward-using-operations-ii) |
