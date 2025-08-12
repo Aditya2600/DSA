@@ -33,27 +33,43 @@ vector<int> powers;
 //         return findWays(0, n);
 //     }
 public:
-    int numberOfWays(int n, int x) {
+    // int numberOfWays(int n, int x) {
+    //     vector<int> powers;
+    //     for(int i=1; i<=n; i++){
+    //         int power = binaryExponentiation(i, x);
+    //         if(power > n) break;
+    //         powers.push_back(power);
+    //     }
+    //     int p = powers.size();
+    //     vector<vector<int>> dp(p+1, vector<int>(n+1, 0));
+    //     for(int pos=1; pos<=p; pos++){
+    //         dp[pos-1][0] = 1;
+    //         for(int target = 1; target<=n; target++){
+    //             if(powers[pos-1]>target){
+    //                 dp[pos][target] = dp[pos-1][target];
+    //             }
+    //             else{
+    //                 dp[pos][target] = (dp[pos-1][target] + dp[pos-1][target-powers[pos-1]]) % MOD;
+    //             }
+    //         }
+            
+    //     }
+    //     return dp[p][n];
+     int numberOfWays(int n, int x) {
         vector<int> powers;
         for(int i=1; i<=n; i++){
             int power = binaryExponentiation(i, x);
             if(power > n) break;
             powers.push_back(power);
         }
+        vector<int> dp(n+1);
+        dp[0] = 1;
         int p = powers.size();
-        vector<vector<int>> dp(p+1, vector<int>(n+1, 0));
         for(int pos=1; pos<=p; pos++){
-            dp[pos-1][0] = 1;
-            for(int target = 1; target<=n; target++){
-                if(powers[pos-1]>target){
-                    dp[pos][target] = dp[pos-1][target];
-                }
-                else{
-                    dp[pos][target] = (dp[pos-1][target] + dp[pos-1][target-powers[pos-1]]) % MOD;
-                }
+            for(int target=n; target>=powers[pos-1]; --target){
+                dp[target] = (dp[target] + dp[target-powers[pos-1]])%MOD;
             }
-            
         }
-        return dp[p][n];
+        return dp[n];
     }
 };
