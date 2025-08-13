@@ -1,27 +1,19 @@
 class Solution {
 public:
-     bool isSubsetSum(vector<int>arr, int sum){
-        int n = arr.size();
-        vector<bool> prev(sum+1, 0), curr(sum+1, 0);
-        prev[0] = curr[0] = true;
-        if(arr[0] <= sum)prev[arr[0]] = true;
-        for(int i=1; i<n; i++){
-            for(int k=1; k<=sum; k++){
-                bool notTake = prev[k];
-                bool take = false;
-                if(arr[i] <= k) take = prev[k-arr[i]];
-                curr[k] = take | notTake;
-            }
-            prev = curr;
-        }
-        return prev[sum];
-    }
     bool canPartition(vector<int>& nums) {
-        int totalSum = 0;
-        int n = nums.size();
-        for(int i=0; i<n; i++) totalSum += nums[i];
-        if(totalSum % 2) return false;
-        int target = totalSum / 2;
-        return isSubsetSum(nums, target);
+        int total = accumulate(nums.begin(), nums.end(), 0);
+        if (total % 2 != 0) return false; // odd sum can't be split equally
+
+        int target = total / 2;
+        vector<bool> dp(target + 1, false);
+        dp[0] = true; // sum 0 is always possible
+
+        for (int num : nums) {
+            for (int j = target; j >= num; --j) {
+                dp[j] = dp[j] || dp[j - num];
+            }
+        }
+
+        return dp[target];
     }
 };
