@@ -461,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1871-palindrome-partitioning-iv](https://github.com/Aditya2600/Leetcode/tree/master/1871-palindrome-partitioning-iv) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Aditya2600/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Aditya2600/Leetcode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
+| [2346-largest-3-same-digit-number-in-string](https://github.com/Aditya2600/Leetcode/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Aditya2600/Leetcode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/Aditya2600/Leetcode/tree/master/2576-minimum-penalty-for-a-shop) |
 | [2580-circular-sentence](https://github.com/Aditya2600/Leetcode/tree/master/2580-circular-sentence) |
