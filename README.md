@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/Aditya2600/Leetcode/tree/master/0041-first-missing-positive) |
 | [0045-jump-game-ii](https://github.com/Aditya2600/Leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/Aditya2600/Leetcode/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/Aditya2600/Leetcode/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/Aditya2600/Leetcode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/Aditya2600/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Aditya2600/Leetcode/tree/master/0053-maximum-subarray) |
@@ -570,6 +571,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Aditya2600/Leetcode/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/Aditya2600/Leetcode/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/Aditya2600/Leetcode/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/Aditya2600/Leetcode/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/Aditya2600/Leetcode/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/Aditya2600/Leetcode/tree/master/0052-n-queens-ii) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Aditya2600/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
@@ -960,6 +962,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Aditya2600/Leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Aditya2600/Leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Aditya2600/Leetcode/tree/master/0018-4sum) |
+| [0047-permutations-ii](https://github.com/Aditya2600/Leetcode/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/Aditya2600/Leetcode/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/Aditya2600/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Aditya2600/Leetcode/tree/master/0229-majority-element-ii) |
