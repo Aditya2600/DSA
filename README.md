@@ -176,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3843-partition-array-into-two-equal-product-subsets](https://github.com/Aditya2600/Leetcode/tree/master/3843-partition-array-into-two-equal-product-subsets) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/Aditya2600/Leetcode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 | [3884-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Aditya2600/Leetcode/tree/master/3884-minimum-absolute-difference-in-sliding-submatrix) |
+| [3980-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/Aditya2600/Leetcode/tree/master/3980-best-time-to-buy-and-sell-stock-using-strategy) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -818,6 +819,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Aditya2600/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Aditya2600/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Aditya2600/Leetcode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
+| [3980-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/Aditya2600/Leetcode/tree/master/3980-best-time-to-buy-and-sell-stock-using-strategy) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -841,6 +843,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3639-zero-array-transformation-i](https://github.com/Aditya2600/Leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3647-zero-array-transformation-iii](https://github.com/Aditya2600/Leetcode/tree/master/3647-zero-array-transformation-iii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Aditya2600/Leetcode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
+| [3980-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/Aditya2600/Leetcode/tree/master/3980-best-time-to-buy-and-sell-stock-using-strategy) |
 ## Combinatorics
 |  |
 | ------- |
