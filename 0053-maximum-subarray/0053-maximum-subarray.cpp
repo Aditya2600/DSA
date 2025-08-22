@@ -1,17 +1,27 @@
+#include <vector>
+#include <limits.h> // For INT_MIN
+using namespace std;
+
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
-        int maxi = INT_MIN;
-        int sum = 0;
-        for(int i=0; i<nums.size(); i++){
+        long long sum = 0; // Use long long to avoid overflow
+        int maxi = INT_MIN; // Initialize to the smallest integer
+
+        for (int i = 0; i < nums.size(); i++) {
             sum += nums[i];
-            if(sum > maxi){
+
+            // Update maximum sum found so far
+            if (sum > maxi) {
                 maxi = sum;
             }
-            else if(sum < 0){
+
+            // Reset sum if it drops below zero
+            if (sum < 0) {
                 sum = 0;
             }
         }
+
         return maxi;
     }
 };
