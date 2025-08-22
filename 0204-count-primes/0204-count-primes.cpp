@@ -10,7 +10,7 @@ public:
     }
     int countPrimes(int n) {
         if(n <= 2) return 0;
-        vector<bool> sieve(n, 1);
+        vector<bool> sieve(n+1, 1);
         fillSieve(sieve);
         sieve[0] = 0;
         sieve[1] = 0;
