@@ -493,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Aditya2600/Leetcode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3860-resulting-string-after-adjacent-removals](https://github.com/Aditya2600/Leetcode/tree/master/3860-resulting-string-after-adjacent-removals) |
 | [3867-lexicographically-smallest-string-after-adjacent-removals](https://github.com/Aditya2600/Leetcode/tree/master/3867-lexicographically-smallest-string-after-adjacent-removals) |
+| [3939-process-string-with-special-operations-ii](https://github.com/Aditya2600/Leetcode/tree/master/3939-process-string-with-special-operations-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -1091,6 +1092,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2595-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Aditya2600/Leetcode/tree/master/2595-smallest-value-after-replacing-with-sum-of-prime-factors) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Aditya2600/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3860-resulting-string-after-adjacent-removals](https://github.com/Aditya2600/Leetcode/tree/master/3860-resulting-string-after-adjacent-removals) |
+| [3939-process-string-with-special-operations-ii](https://github.com/Aditya2600/Leetcode/tree/master/3939-process-string-with-special-operations-ii) |
 ## Linked List
 |  |
 | ------- |
