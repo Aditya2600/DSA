@@ -870,6 +870,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0044-wildcard-matching](https://github.com/Aditya2600/Leetcode/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/Aditya2600/Leetcode/tree/master/0050-powx-n) |
+| [0206-reverse-linked-list](https://github.com/Aditya2600/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0326-power-of-three](https://github.com/Aditya2600/Leetcode/tree/master/0326-power-of-three) |
 | [1013-fibonacci-number](https://github.com/Aditya2600/Leetcode/tree/master/1013-fibonacci-number) |
 | [1197-parsing-a-boolean-expression](https://github.com/Aditya2600/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
@@ -1097,6 +1098,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Aditya2600/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+| [0206-reverse-linked-list](https://github.com/Aditya2600/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0355-design-twitter](https://github.com/Aditya2600/Leetcode/tree/master/0355-design-twitter) |
 ## Merge Sort
 |  |
