@@ -10,23 +10,39 @@
  */
 class Solution {
 public:
+    ListNode* reverseList(ListNode* head) {
+     if (head == NULL || head -> next == NULL) {
+     return head;
+}
+ListNode* newHead = reverseList(head -> next);
+ListNode* front = head -> next;
+front -> next = head;
+head->next = NULL;
+return newHead;
+    }
+    
     ListNode* reverseBetween(ListNode* head, int left, int right) {
-        if(head == nullptr || head -> next == nullptr){
-            return head;
+        if(left == right) return head;
+        ListNode* a = NULL;
+        ListNode* b = NULL;
+        ListNode* c = NULL;
+        ListNode* d = NULL;
+        ListNode* temp = head;
+        int n = 1;
+        while(temp){
+            if(n == left-1) a=temp;
+            if(n == left) b=temp;
+            if(n == right) c=temp;
+            if(n == right+1) d=temp;
+            temp=temp->next;
+            n++;
         }
-        ListNode *dummy = new ListNode(0);
-        dummy -> next = head;
-        ListNode* prev = dummy;
-        for(int i=1; i<left; i++){
-            prev = prev -> next;
-        }
-        ListNode *curr = prev -> next;
-        for(int i=1; i<=(right - left); i++){
-            ListNode* temp = prev -> next;
-            prev -> next = curr -> next;
-            curr -> next = curr -> next -> next;
-            prev -> next -> next = temp;
-        }
-        return dummy -> next;
+        if(a) a->next=NULL;
+        c->next=NULL;
+        c = reverseList(b);
+        if(a) a->next = c;
+        b->next = d;
+        if(a) return head;
+        return c;
     }
 };
