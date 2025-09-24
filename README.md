@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Aditya2600/Leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Aditya2600/Leetcode/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/Aditya2600/Leetcode/tree/master/0031-next-permutation) |
+| [0033-search-in-rotated-sorted-array](https://github.com/Aditya2600/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0037-sudoku-solver](https://github.com/Aditya2600/Leetcode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/Aditya2600/Leetcode/tree/master/0041-first-missing-positive) |
 | [0045-jump-game-ii](https://github.com/Aditya2600/Leetcode/tree/master/0045-jump-game-ii) |
@@ -678,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Aditya2600/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/Aditya2600/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Aditya2600/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Aditya2600/Leetcode/tree/master/0096-unique-binary-search-trees) |
