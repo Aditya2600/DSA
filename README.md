@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/Aditya2600/Leetcode/tree/master/0854-making-a-large-island) |
 | [0876-hand-of-straights](https://github.com/Aditya2600/Leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Aditya2600/Leetcode/tree/master/0890-lemonade-change) |
+| [0924-fair-candy-swap](https://github.com/Aditya2600/Leetcode/tree/master/0924-fair-candy-swap) |
 | [0945-snakes-and-ladders](https://github.com/Aditya2600/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Aditya2600/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 | [0966-binary-subarrays-with-sum](https://github.com/Aditya2600/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
@@ -405,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0697-degree-of-an-array](https://github.com/Aditya2600/Leetcode/tree/master/0697-degree-of-an-array) |
 | [0721-accounts-merge](https://github.com/Aditya2600/Leetcode/tree/master/0721-accounts-merge) |
 | [0876-hand-of-straights](https://github.com/Aditya2600/Leetcode/tree/master/0876-hand-of-straights) |
+| [0924-fair-candy-swap](https://github.com/Aditya2600/Leetcode/tree/master/0924-fair-candy-swap) |
 | [0966-binary-subarrays-with-sum](https://github.com/Aditya2600/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aditya2600/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Aditya2600/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
@@ -704,6 +706,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0669-trim-a-binary-search-tree](https://github.com/Aditya2600/Leetcode/tree/master/0669-trim-a-binary-search-tree) |
 | [0713-subarray-product-less-than-k](https://github.com/Aditya2600/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0794-swim-in-rising-water](https://github.com/Aditya2600/Leetcode/tree/master/0794-swim-in-rising-water) |
+| [0924-fair-candy-swap](https://github.com/Aditya2600/Leetcode/tree/master/0924-fair-candy-swap) |
 | [1046-max-consecutive-ones-iii](https://github.com/Aditya2600/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya2600/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1294-range-frequency-queries](https://github.com/Aditya2600/Leetcode/tree/master/1294-range-frequency-queries) |
@@ -1022,6 +1025,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Aditya2600/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0721-accounts-merge](https://github.com/Aditya2600/Leetcode/tree/master/0721-accounts-merge) |
 | [0876-hand-of-straights](https://github.com/Aditya2600/Leetcode/tree/master/0876-hand-of-straights) |
+| [0924-fair-candy-swap](https://github.com/Aditya2600/Leetcode/tree/master/0924-fair-candy-swap) |
 | [1014-k-closest-points-to-origin](https://github.com/Aditya2600/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1129-longest-string-chain](https://github.com/Aditya2600/Leetcode/tree/master/1129-longest-string-chain) |
 | [1256-rank-transform-of-an-array](https://github.com/Aditya2600/Leetcode/tree/master/1256-rank-transform-of-an-array) |
