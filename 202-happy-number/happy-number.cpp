@@ -5,8 +5,7 @@ public:
         while (true) {
             int sum = 0;
             while (n != 0) {
-                int d = n % 10;
-                sum += d*d;
+                sum += pow(n % 10, 2.0);
                 n /= 10;
             }
             if (sum == 1)
