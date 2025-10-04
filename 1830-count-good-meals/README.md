@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/count-good-meals">1830. Count Good Meals</a></h2><h3>Medium</h3><hr><p>A <strong>good meal</strong> is a meal that contains <strong>exactly two different food items</strong> with a sum of deliciousness equal to a power of two.</p>
+<h2><a href="https://leetcode.com/problems/count-good-meals">Count Good Meals</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>A <strong>good meal</strong> is a meal that contains <strong>exactly two different food items</strong> with a sum of deliciousness equal to a power of two.</p>
 
 <p>You can pick <strong>any</strong> two different foods to make a good meal.</p>
 
