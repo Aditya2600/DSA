@@ -1,28 +1,29 @@
 class Solution {
 public:
-    vector<string> ans;
+
     vector<string> keys = {"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+    vector<string> ans;
 
-    void fun(string &digits,string &temp, int ind){
-            int n = digits.size();
-            if(ind == n){
-                ans.push_back(temp);
-                return;
-            }
-            int curr_ind = digits[ind] - '0';
-            for(auto &key:keys[curr_ind]){
-                temp.push_back(key);
-                fun(digits,temp,ind+1);
-                temp.pop_back();
-            }
-
+    void solve(int idx, string& digits, string& temp){
+        if(idx == digits.size()){
+            ans.push_back(temp);
+            return;
+        }
+        int index = digits[idx] - '0';
+         
+        for(auto &ch : keys[index]){
+            temp.push_back(ch);
+            solve(idx+1, digits, temp);
+            temp.pop_back();
+        }
     }
+
     vector<string> letterCombinations(string digits) {
-       if(digits.size() == 0){
+        if(digits.size() == 0){
+            return {};
+        }
+        string temp = "";
+        solve(0, digits, temp);
         return ans;
-       }
-       string temp;
-       fun(digits,temp,0);
-       return ans; 
     }
 };
