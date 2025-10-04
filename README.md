@@ -1159,5 +1159,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0262-trips-and-users](https://github.com/Aditya2600/Leetcode/tree/master/0262-trips-and-users) |
+| [1292-immediate-food-delivery-ii](https://github.com/Aditya2600/Leetcode/tree/master/1292-immediate-food-delivery-ii) |
 | [1908-recyclable-and-low-fat-products](https://github.com/Aditya2600/Leetcode/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
