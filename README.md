@@ -131,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Aditya2600/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1503-reducing-dishes](https://github.com/Aditya2600/Leetcode/tree/master/1503-reducing-dishes) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Aditya2600/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
+| [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/Aditya2600/Leetcode/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [1559-cherry-pickup-ii](https://github.com/Aditya2600/Leetcode/tree/master/1559-cherry-pickup-ii) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Aditya2600/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1603-running-sum-of-1d-array](https://github.com/Aditya2600/Leetcode/tree/master/1603-running-sum-of-1d-array) |
@@ -897,6 +898,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/Aditya2600/Leetcode/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1046-max-consecutive-ones-iii](https://github.com/Aditya2600/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Aditya2600/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/Aditya2600/Leetcode/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [1603-running-sum-of-1d-array](https://github.com/Aditya2600/Leetcode/tree/master/1603-running-sum-of-1d-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Aditya2600/Leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/Aditya2600/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
