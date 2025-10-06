@@ -12,8 +12,12 @@
 class Solution {
 public:
 
+    // struct TreeNode{
+    //     int val;
+    //     Tree
+    // }
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        map<int, int> mp;
+        unordered_map<int, int> mp;
         int n = inorder.size();
         for(int i=0; i<n; i++){
             mp[inorder[i]] = i;
@@ -22,7 +26,7 @@ public:
         return root;
     }
 
-    TreeNode* build(vector<int>& preorder, int preStart, int preEnd, vector<int>& inorder, int inStart, int inEnd, map<int, int> &inMap){
+    TreeNode* build(vector<int>& preorder, int preStart, int preEnd, vector<int>& inorder, int inStart, int inEnd, unordered_map<int, int> &inMap){
         if(preStart > preEnd || inStart > inEnd){
             return NULL;
         }
