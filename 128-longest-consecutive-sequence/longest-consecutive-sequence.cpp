@@ -22,26 +22,54 @@
 //     }
 // };
 
+// class Solution {
+// public:
+//     int longestConsecutive(vector<int>& nums) {
+//         int n = nums.size();
+//         if(nums.empty()) return 0;
+//         int largest = 1;
+//         int last_smaller = INT_MIN;
+//         int currCnt = 0;
+//         sort(nums.begin(), nums.end());
+//         for(int i=0; i<n; i++){
+//             if(nums[i] == last_smaller + 1){
+//                 currCnt += 1;
+//                 last_smaller = nums[i];
+//             }
+//             else if(last_smaller != nums[i]){
+//                 last_smaller = nums[i];
+//                 currCnt = 1;
+//             }
+//             largest = max(largest, currCnt);
+//         }
+//         return largest;
+//     }
+// };
+
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
         int n = nums.size();
-        if(nums.empty()) return 0;
-        int largest = 1;
-        int last_smaller = INT_MIN;
-        int currCnt = 0;
-        sort(nums.begin(), nums.end());
-        for(int i=0; i<n; i++){
-            if(nums[i] == last_smaller + 1){
-                currCnt += 1;
-                last_smaller = nums[i];
-            }
-            else if(last_smaller != nums[i]){
-                last_smaller = nums[i];
-                currCnt = 1; 
-            }
-            largest = max(largest, currCnt);
+        if (nums.empty())
+            return 0;
+        unordered_set<int> st;
+        int longest = INT_MIN;
+        for (auto it : nums) {
+            st.insert(it);
         }
-        return largest;
+        for (auto s : st) {
+            if (st.find(s - 1) == st.end()) {
+                int cnt = 1;
+                int x = s;
+                while (st.find(x + 1) != st.end()) {
+                    cnt++;
+                    x = x+1;
+                }
+                longest = max(longest, cnt);
+            }
+
+            
+        }
+        return longest;
     }
 };
