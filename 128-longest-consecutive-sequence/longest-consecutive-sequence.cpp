@@ -60,15 +60,12 @@ public:
         for (auto s : st) {
             if (st.find(s - 1) == st.end()) {
                 int cnt = 1;
-                int x = s;
-                while (st.find(x + 1) != st.end()) {
+                while (st.find(s + 1) != st.end()) {
                     cnt++;
-                    x = x+1;
+                    s = s + 1;
                 }
                 longest = max(longest, cnt);
             }
-
-            
         }
         return longest;
     }
