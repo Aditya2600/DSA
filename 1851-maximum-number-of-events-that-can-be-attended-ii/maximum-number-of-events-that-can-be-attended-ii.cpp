@@ -1,42 +1,42 @@
-class Solution {
-public:
-    int maxValue(vector<vector<int>>& events, int k) {
-        sort(events.begin(), events.end(), [](const vector<int>& a, const vector<int>& b) {
-            return a[1] < b[1];
-        });
+// class Solution {
+// public:
+//     int maxValue(vector<vector<int>>& events, int k) {
+//         sort(events.begin(), events.end(), [](const vector<int>& a, const vector<int>& b) {
+//             return a[1] < b[1];
+//         });
 
-        int n = events.size();
-        vector<vector<int>> dp(n + 1, vector<int>(k + 1, 0));
+//         int n = events.size();
+//         vector<vector<int>> dp(n + 1, vector<int>(k + 1, 0));
 
-        for (int i = 1; i <= n; ++i) {
-            int prev = binarySearch(events, events[i - 1][0]);
+//         for (int i = 1; i <= n; ++i) {
+//             int prev = binarySearch(events, events[i - 1][0]);
 
-            for (int j = 1; j <= k; ++j) {
-                dp[i][j] = max(dp[i - 1][j], dp[prev + 1][j - 1] + events[i - 1][2]);
-            }
-        }
+//             for (int j = 1; j <= k; ++j) {
+//                 dp[i][j] = max(dp[i - 1][j], dp[prev + 1][j - 1] + events[i - 1][2]);
+//             }
+//         }
 
-        return dp[n][k];
-    }
+//         return dp[n][k];
+//     }
 
-private:
-    int binarySearch(vector<vector<int>>& events, int currentStart) {
-        int left = 0, right = events.size() - 1;
-        int result = -1;
+// private:
+//     int binarySearch(vector<vector<int>>& events, int currentStart) {
+//         int left = 0, right = events.size() - 1;
+//         int result = -1;
 
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            if (events[mid][1] < currentStart) {
-                result = mid;
-                left = mid + 1;
-            } else {
-                right = mid - 1;
-            }
-        }
+//         while (left <= right) {
+//             int mid = left + (right - left) / 2;
+//             if (events[mid][1] < currentStart) {
+//                 result = mid;
+//                 left = mid + 1;
+//             } else {
+//                 right = mid - 1;
+//             }
+//         }
 
-        return result;
-    }
-};
+//         return result;
+//     }
+// };
 // class Solution {
 // public:
 //     int solve(vector<vector<int>>& events, int n, int pos, int k){
@@ -77,3 +77,24 @@ private:
 //         return solve(events, n, 0, k, dp);
 //     }
 // };
+
+class Solution {
+public:
+    vector<int> start;
+    int solve(vector<vector<int>>& events, int n, int pos, int k, vector<vector<int>> &dp){
+        if(pos >= n || k == 0){
+            return 0;
+        }
+        if(dp[pos][k] != -1) return dp[pos][k];
+        int endT = events[pos][1];
+        int i = upper_bound(start.begin(), start.end(), endT) - start.begin();
+        return dp[pos][k] = max(solve(events, n, pos+1, k, dp), events[pos][2] + solve(events, n, i, k-1, dp));
+    }
+    int maxValue(vector<vector<int>>& events, int k) {
+        int n = events.size();
+        vector<vector<int>> dp(n+1, vector<int> (k+1, -1));
+        sort(events.begin(), events.end());
+        for(auto pr : events) start.push_back(pr[0]);
+        return solve(events, n, 0, k, dp);
+    }
+};
