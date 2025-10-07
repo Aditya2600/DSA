@@ -171,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Aditya2600/Leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2722-prime-in-diagonal](https://github.com/Aditya2600/Leetcode/tree/master/2722-prime-in-diagonal) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Aditya2600/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
+| [3214-maximize-area-of-square-hole-in-grid](https://github.com/Aditya2600/Leetcode/tree/master/3214-maximize-area-of-square-hole-in-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/Aditya2600/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Aditya2600/Leetcode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3269-number-of-subarrays-that-match-a-pattern-i](https://github.com/Aditya2600/Leetcode/tree/master/3269-number-of-subarrays-that-match-a-pattern-i) |
@@ -1078,6 +1079,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2469-longest-subsequence-with-limited-sum](https://github.com/Aditya2600/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2479-meeting-rooms-iii](https://github.com/Aditya2600/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2554-minimum-total-distance-traveled](https://github.com/Aditya2600/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
+| [3214-maximize-area-of-square-hole-in-grid](https://github.com/Aditya2600/Leetcode/tree/master/3214-maximize-area-of-square-hole-in-grid) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Aditya2600/Leetcode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Aditya2600/Leetcode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3321-type-of-triangle](https://github.com/Aditya2600/Leetcode/tree/master/3321-type-of-triangle) |
