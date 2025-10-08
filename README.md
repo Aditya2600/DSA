@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Aditya2600/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0037-sudoku-solver](https://github.com/Aditya2600/Leetcode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/Aditya2600/Leetcode/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/Aditya2600/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Aditya2600/Leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/Aditya2600/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Aditya2600/Leetcode/tree/master/0047-permutations-ii) |
@@ -534,6 +535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Aditya2600/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/Aditya2600/Leetcode/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/Aditya2600/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/Aditya2600/Leetcode/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/Aditya2600/Leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Aditya2600/Leetcode/tree/master/0053-maximum-subarray) |
@@ -779,6 +781,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/Aditya2600/Leetcode/tree/master/0018-4sum) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Aditya2600/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0031-next-permutation](https://github.com/Aditya2600/Leetcode/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/Aditya2600/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/Aditya2600/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Aditya2600/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Aditya2600/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -795,6 +798,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Aditya2600/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/Aditya2600/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0173-binary-search-tree-iterator](https://github.com/Aditya2600/Leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0496-next-greater-element-i](https://github.com/Aditya2600/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -865,6 +869,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Aditya2600/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/Aditya2600/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/Aditya2600/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Aditya2600/Leetcode/tree/master/0503-next-greater-element-ii) |
