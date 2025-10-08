@@ -1,17 +1,19 @@
 class Solution {
 public:
-
-    int solve(int curr, int n, vector<int> &dp){
-        if(curr == n) return 1;
-        if(curr > n) return 0;
-        if(dp[curr]!=-1) return dp[curr];
-        int curr_ways = solve(curr+1,n,dp);
-        curr_ways+=solve(curr+2,n,dp);
-        dp[curr] = curr_ways;
-        return dp[curr];
+    int f(int n, vector<int> &dp){
+        if(n == 0){
+            return 1;
+        }
+        if(dp[n] != -1) return dp[n];
+        int one = f(n-1, dp);
+        int two = 0;
+        if(n - 2 >= 0){
+            two = f(n-2, dp);
+        }
+        return dp[n] = one + two;
     }
     int climbStairs(int n) {
-        vector<int> dp(n+1,-1);
-        return solve(0,n,dp);
+        vector<int> dp(n+2, -1);
+        return f(n, dp);
     }
 };
