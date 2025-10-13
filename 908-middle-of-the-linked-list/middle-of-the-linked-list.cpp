@@ -8,21 +8,37 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+// class Solution {
+// public:
+//     ListNode* middleNode(ListNode* head) {
+//         if(head == NULL || head->next == NULL){
+//             return head;
+//         }
+//         int len = 0;
+//         for(ListNode* p = head; p; p = p -> next){
+//             len++;
+//         }
+//         int steps = len/2;
+//         ListNode* p = head;
+//         while(steps--){
+//             p = p -> next;
+//         }
+//         return p;
+//     }
+// };
+
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
         if(head == NULL || head->next == NULL){
             return head;
         }
-        int len = 0;
-        for(ListNode* p = head; p; p = p -> next){
-            len++;
+        ListNode* s = head;
+        ListNode* f = head;
+        while(f != NULL && f -> next != NULL){
+            s = s -> next;
+            f = f -> next -> next;
         }
-        int steps = len/2;
-        ListNode* p = head;
-        while(steps--){
-            p = p -> next;
-        }
-        return p;
+        return s;
     }
 };
