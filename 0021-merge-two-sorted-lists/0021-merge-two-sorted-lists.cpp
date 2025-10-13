@@ -27,17 +27,9 @@ public:
                 t2 = t2 -> next;
             }
         }
-        while(t1 == NULL && t2 != NULL){
-            temp -> next = t2;
-            temp = t2;
-            t2 = t2 -> next;
-        }
-
-        while(t2 == NULL && t1 != NULL){
-            temp -> next = t1;
-            temp = t1;
-            t1 = t1 -> next;
-        }
+        if(t1) temp -> next = t1;
+        else temp -> next = t2;
+        
         return dummy->next;
     }
 };
