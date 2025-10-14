@@ -10,20 +10,20 @@
  */
 // class Solution {
 // public:
-    // ListNode* reverse(ListNode* head){
-    //     if(head == NULL || head -> next == NULL){
-    //         return head;
-    //     }
-    //     ListNode* newHead = reverse(head -> next);
-    //     ListNode* front = head -> next;
-    //     front -> next = head;
-    //     head -> next = NULL;
-    //     return newHead;
-    // }
-    // bool isPalindrome(ListNode* head) {
-    //     ListNode* newHead = reverse(head);
-    //     return (newHead == head) ? true : false;
-    // }
+// ListNode* reverse(ListNode* head){
+//     if(head == NULL || head -> next == NULL){
+//         return head;
+//     }
+//     ListNode* newHead = reverse(head -> next);
+//     ListNode* front = head -> next;
+//     front -> next = head;
+//     head -> next = NULL;
+//     return newHead;
+// }
+// bool isPalindrome(ListNode* head) {
+//     ListNode* newHead = reverse(head);
+//     return (newHead == head) ? true : false;
+// }
 
 //     bool isPalindrome(ListNode* head) {
 //         ListNode* temp = head;
@@ -66,13 +66,12 @@
 
 class Solution {
 public:
-
-    ListNode* reverse(ListNode* head){
+    ListNode* reverse(ListNode* head) {
         ListNode* temp = head;
         ListNode* prev = NULL;
-        while(temp != NULL){
-            head = head -> next;
-            temp -> next = prev;
+        while (temp != NULL) {
+            head = head->next;
+            temp->next = prev;
             prev = temp;
             temp = head;
         }
@@ -82,19 +81,22 @@ public:
     bool isPalindrome(ListNode* head) {
         ListNode* f = head;
         ListNode* s = head;
-        while(f -> next != NULL && f -> next -> next != NULL){
-            s = s -> next;
-            f = f -> next -> next;
+        while (f->next != NULL && f->next->next != NULL) {
+            s = s->next;
+            f = f->next->next;
         }
-        ListNode* newHead = reverse(s -> next);
+        ListNode* newHead = reverse(s->next);
         f = head;
         s = newHead;
-        while(s != NULL && f != NULL){
-            if(s -> val == f -> val){
-                s = s -> next;
-                f = f -> next;
+        while (s != NULL && f != NULL) {
+            if (s->val != f->val) {
+                reverse(newHead);
+                return false;
+
+            } else {
+                s = s->next;
+                f = f->next;
             }
-            else return false;
         }
         reverse(newHead);
         return true;
