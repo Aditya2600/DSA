@@ -25,7 +25,7 @@ public:
             temp = temp -> next;
         }
         temp = head;
-        Node* headc = mp[temp];
+
         while(temp != NULL){
             Node* copyNode = mp[temp];
             copyNode -> next = mp[temp -> next];
@@ -33,6 +33,6 @@ public:
             copyNode = copyNode -> next;
             temp = temp -> next;
         }
-        return headc;
+        return mp[head];
     }
 };
