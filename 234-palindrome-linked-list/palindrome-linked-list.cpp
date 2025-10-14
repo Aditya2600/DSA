@@ -8,8 +8,8 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-class Solution {
-public:
+// class Solution {
+// public:
     // ListNode* reverse(ListNode* head){
     //     if(head == NULL || head -> next == NULL){
     //         return head;
@@ -25,21 +25,78 @@ public:
     //     return (newHead == head) ? true : false;
     // }
 
-    bool isPalindrome(ListNode* head) {
+//     bool isPalindrome(ListNode* head) {
+//         ListNode* temp = head;
+//         stack<int> st;
+//         while(temp != NULL){
+//             st.push(temp->val);
+//             temp = temp -> next;
+//         }
+//         temp = head;
+//         while(temp != NULL){
+//             if(temp->val != st.top()){
+//                 return false;
+//             }
+//             temp = temp -> next;
+//             st.pop();
+//         }
+//         return true;
+//     }
+// };
+// class Solution {
+// public:
+//  bool isPalindrome(ListNode* head) {
+//         ListNode* temp = head;
+//         stack<int> st;
+//         while(temp != NULL){
+//             st.push(temp->val);
+//             temp = temp -> next;
+//         }
+//         temp = head;
+//         while(temp != NULL){
+//             if(temp->val != st.top()){
+//                 return false;
+//             }
+//             temp = temp -> next;
+//             st.pop();
+//         }
+//         return true;
+//     }
+// };
+
+class Solution {
+public:
+
+    ListNode* reverse(ListNode* head){
         ListNode* temp = head;
-        stack<int> st;
+        ListNode* prev = NULL;
         while(temp != NULL){
-            st.push(temp->val);
-            temp = temp -> next;
+            head = head -> next;
+            temp -> next = prev;
+            prev = temp;
+            temp = head;
         }
-        temp = head;
-        while(temp != NULL){
-            if(temp->val != st.top()){
-                return false;
+        return prev;
+    }
+
+    bool isPalindrome(ListNode* head) {
+        ListNode* f = head;
+        ListNode* s = head;
+        while(f -> next != NULL && f -> next -> next != NULL){
+            s = s -> next;
+            f = f -> next -> next;
+        }
+        ListNode* newHead = reverse(s -> next);
+        f = head;
+        s = newHead;
+        while(s != NULL && f != NULL){
+            if(s -> val == f -> val){
+                s = s -> next;
+                f = f -> next;
             }
-            temp = temp -> next;
-            st.pop();
+            else return false;
         }
+        reverse(newHead);
         return true;
     }
 };
