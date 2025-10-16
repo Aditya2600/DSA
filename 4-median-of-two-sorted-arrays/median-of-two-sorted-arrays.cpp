@@ -1,77 +1,57 @@
-// class Solution {
-// public:
-//     void merge(vector<int>& nums1, vector<int>& nums2, vector<int>& ans) {
-//         int n = nums1.size();
-//         int m = nums2.size();
-//         ans.reserve(n+m);
-//         int i = 0, j = 0;
-//         while (i < n && j < m) {
-//             if (nums1[i] < nums2[j]) {
-//                 ans.push_back(nums1[i]);
-//                 i++;
-//             } else {
-//                 ans.push_back(nums2[j]);
-//                 j++;
-//             }
-//         }
-//         while (i < n) {
-//             ans.push_back(nums1[i]);
-//             i++;
-//         }
-//         while (j < m) {
-//             ans.push_back(nums2[j]);
-//             j++;
-//         }
-//     }
-//     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-//         vector<int> ans;
-//         merge(nums1, nums2, ans);
-//         double res = 0;
-//         int sz = ans.size();
-//         int mid1 = (sz / 2);
-//         int mid2 = ((sz / 2) - 1);
-//         if ((sz) % 2 == 0) {
-//             res = (ans[mid1] + ans[mid2]) / 2.0;
-//         } else {
-//             res = ans[mid1];
-//         }
-//         return res;
-//     }
-// };
 class Solution {
 public:
-    
+    // Function to find the median of two sorted arrays
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        int n = nums1.size();
-        int m = nums2.size();
-        if(n > m) return findMedianSortedArrays(nums2, nums1);
-        int k = n + m;
-        int lo = 0;
-        int hi = n;
-        int left = (n + m + 1) / 2;
-        while(lo <= hi){
-            int mid1 = (lo + hi) >> 1;
-            int mid2 = left - mid1;
-            int l1 = INT_MIN, l2 = INT_MIN;
-            int r1 = INT_MAX, r2 = INT_MAX;
-            if(mid1 < n) r1 = nums1[mid1];
-            if(mid2 < m) r2 = nums2[mid2];
-            if(mid1 - 1 >= 0) l1 = nums1[mid1 - 1];
-            if(mid2 - 1 >= 0) l2 = nums2[mid2 - 1];
-            if(l1 <= r2 && l2 <= r1){
-                if(k % 2 == 1){
-                    return max(l1, l2);
-                }
-                else{
-                    return (double)(max(l1,l2) + min(r1, r2)) / 2.0;
-                }
-            }
-            else if(l1 > r2){
-                hi = mid1-1;
-            }
-            else lo = mid1 + 1;
-
+        // Ensure nums1 is the smaller array to optimize binary search
+        if (nums1.size() > nums2.size()) {
+            return findMedianSortedArrays(nums2, nums1); // Swap if needed
         }
-        return 0;
+        
+        // Get the sizes of the two arrays
+        int m = nums1.size();
+        int n = nums2.size();
+        
+        // Initialize binary search variables: low and high indices for nums1
+        int low = 0, high = m; 
+        
+        // Loop until the correct partition is found
+        while (low <= high) {
+            // Partition index for nums1
+            int i = (low + high) / 2;
+            // Partition index for nums2: total left half is (m + n + 1)/2
+            int j = (m + n + 1) / 2 - i;
+            
+            // Check boundary conditions for left and right parts of nums1
+            // If i == 0, it means left partition of nums1 is empty, assign minimum possible value
+            int left1 = (i == 0) ? INT_MIN : nums1[i - 1];
+            // If i equals m, it means right partition of nums1 is empty, assign maximum possible value
+            int right1 = (i == m) ? INT_MAX : nums1[i];
+
+            // Similarly, assign boundary values for nums2
+            int left2 = (j == 0) ? INT_MIN : nums2[j - 1];
+            int right2 = (j == n) ? INT_MAX : nums2[j];
+            
+            // Check if partitions are valid:
+            if (left1 <= right2 && left2 <= right1) {
+                // Found the correct partition.
+                // Now calculate median depending on whether the total length is odd or even.
+                if ((m + n) % 2 == 0) {
+                    // For even total elements, median is average of max(left1, left2) and min(right1, right2)
+                    return (max(left1, left2) + min(right1, right2)) / 2.0;
+                } else {
+                    // For odd total elements, median is max(left1, left2)
+                    return static_cast<double>(max(left1, left2));
+                }
+            } else if (left1 > right2) {
+                // If left1 is too big, reduce partition index in nums1
+                high = i - 1;
+            } else {
+                // If left2 is too big, increase partition index in nums1
+                low = i + 1;
+            }
+        }
+        
+        // Should never reach here if input arrays are valid and sorted
+        return 0.0;
     }
 };
