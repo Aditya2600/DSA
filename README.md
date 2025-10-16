@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1706-min-cost-to-connect-all-points](https://github.com/Aditya2600/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/Aditya2600/Leetcode/tree/master/1826-maximum-xor-with-an-element-from-array) |
+| [1829-maximum-units-on-a-truck](https://github.com/Aditya2600/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [1830-count-good-meals](https://github.com/Aditya2600/Leetcode/tree/master/1830-count-good-meals) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Aditya2600/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/Aditya2600/Leetcode/tree/master/1925-count-nice-pairs-in-an-array) |
@@ -991,6 +992,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Aditya2600/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1503-reducing-dishes](https://github.com/Aditya2600/Leetcode/tree/master/1503-reducing-dishes) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Aditya2600/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1829-maximum-units-on-a-truck](https://github.com/Aditya2600/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Aditya2600/Leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Aditya2600/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/Aditya2600/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
@@ -1115,6 +1117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1503-reducing-dishes](https://github.com/Aditya2600/Leetcode/tree/master/1503-reducing-dishes) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Aditya2600/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Aditya2600/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
+| [1829-maximum-units-on-a-truck](https://github.com/Aditya2600/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Aditya2600/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Aditya2600/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
