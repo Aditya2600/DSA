@@ -29,8 +29,8 @@ public:
 
     int minCut(string s) {
         int n = s.size();
-        vector<int> dp(n, 0);
-        dp[n-1] = 0;
+        vector<int> dp(n+1, 0);
+        dp[n] = 0;
         for (int ind = n - 1; ind >= 0; ind--) {
             int ans = 1e9;
             for (int i = ind; i < n; i++) {
@@ -42,6 +42,6 @@ public:
             dp[ind] = ans;
         }
 
-        return dp[0] - 1;
+        return dp[0];
     }
 };
