@@ -682,6 +682,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Aditya2600/Leetcode/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/Aditya2600/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Aditya2600/Leetcode/tree/master/0050-powx-n) |
+| [0060-permutation-sequence](https://github.com/Aditya2600/Leetcode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/Aditya2600/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Aditya2600/Leetcode/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/Aditya2600/Leetcode/tree/master/0096-unique-binary-search-trees) |
@@ -975,6 +976,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/Aditya2600/Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0044-wildcard-matching](https://github.com/Aditya2600/Leetcode/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/Aditya2600/Leetcode/tree/master/0050-powx-n) |
+| [0060-permutation-sequence](https://github.com/Aditya2600/Leetcode/tree/master/0060-permutation-sequence) |
 | [0206-reverse-linked-list](https://github.com/Aditya2600/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Aditya2600/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0326-power-of-three](https://github.com/Aditya2600/Leetcode/tree/master/0326-power-of-three) |
