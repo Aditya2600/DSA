@@ -1,51 +1,25 @@
-// class Solution {
-// public:
-
-//     void recurpermute(vector<int>& nums, vector<int>& ds, vector<bool>& flag, vector<vector<int>>& ans){
-//         int n = nums.size();
-//         if(ds.size() == n){
-//             ans.push_back(ds);
-//             return;
-//         }
-//         for(int i=0; i<n; i++){
-//             if(!flag[i]){
-//                 flag[i] = true;
-//                 ds.push_back(nums[i]);
-//                 recurpermute(nums, ds, flag, ans);
-//                 ds.pop_back();
-//                 flag[i] = false;
-//             }
-//         }
-//     }
-
-//     vector<vector<int>> permute(vector<int>& nums) {
-//         int n = nums.size();
-//         vector<vector<int>> ans;
-//         vector<int> ds;
-//         vector<bool> flag(n, false);
-//         recurpermute(nums, ds, flag, ans);
-//         return ans;
-//     }
-// };
 class Solution {
 public:
-
-     void recurpermute(int ind, vector<vector<int>>& ans, vector<int>& nums) {
+    void backTrack(vector<int>& nums, vector<vector<int>>& ans, vector<int>& res, vector<bool> used){
         int n = nums.size();
-        if (ind == n) {
-            ans.push_back(nums);
+        if(res.size() == n){
+            ans.push_back(res);
             return;
         }
-        for (int i = ind; i < n; i++) {
-            swap(nums[ind], nums[i]);
-            recurpermute(ind + 1, ans, nums);
-            swap(nums[i], nums[ind]);
+        for(int i=0; i<n; i++){
+            if(used[i]) continue;
+            used[i] = true;
+            res.push_back(nums[i]);
+            backTrack(nums, ans, res, used);
+            res.pop_back();
+            used[i] = false;
         }
     }
-
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> ans;
-        recurpermute(0, ans, nums);
+        vector<int> res;
+        vector<bool> used(nums.size(), false);
+        backTrack(nums, ans, res, used);
         return ans;
     }
 };
