@@ -242,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1300-critical-connections-in-a-network](https://github.com/Aditya2600/Leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1380-number-of-closed-islands](https://github.com/Aditya2600/Leetcode/tree/master/1380-number-of-closed-islands) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Aditya2600/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1493-frog-position-after-t-seconds](https://github.com/Aditya2600/Leetcode/tree/master/1493-frog-position-after-t-seconds) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Aditya2600/Leetcode/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Aditya2600/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1380-number-of-closed-islands](https://github.com/Aditya2600/Leetcode/tree/master/1380-number-of-closed-islands) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/Aditya2600/Leetcode/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Aditya2600/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1493-frog-position-after-t-seconds](https://github.com/Aditya2600/Leetcode/tree/master/1493-frog-position-after-t-seconds) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Aditya2600/Leetcode/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Aditya2600/Leetcode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
@@ -383,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/Aditya2600/Leetcode/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Aditya2600/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Aditya2600/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1493-frog-position-after-t-seconds](https://github.com/Aditya2600/Leetcode/tree/master/1493-frog-position-after-t-seconds) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Aditya2600/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1916-find-center-of-star-graph](https://github.com/Aditya2600/Leetcode/tree/master/1916-find-center-of-star-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Aditya2600/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -736,6 +739,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Aditya2600/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0669-trim-a-binary-search-tree](https://github.com/Aditya2600/Leetcode/tree/master/0669-trim-a-binary-search-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya2600/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1493-frog-position-after-t-seconds](https://github.com/Aditya2600/Leetcode/tree/master/1493-frog-position-after-t-seconds) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Aditya2600/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Aditya2600/Leetcode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Aditya2600/Leetcode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
