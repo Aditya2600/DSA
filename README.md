@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1256-rank-transform-of-an-array](https://github.com/Aditya2600/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1294-range-frequency-queries](https://github.com/Aditya2600/Leetcode/tree/master/1294-range-frequency-queries) |
 | [1319-unique-number-of-occurrences](https://github.com/Aditya2600/Leetcode/tree/master/1319-unique-number-of-occurrences) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/Aditya2600/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/Aditya2600/Leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Aditya2600/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1380-number-of-closed-islands](https://github.com/Aditya2600/Leetcode/tree/master/1380-number-of-closed-islands) |
@@ -781,6 +782,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/Aditya2600/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Aditya2600/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1294-range-frequency-queries](https://github.com/Aditya2600/Leetcode/tree/master/1294-range-frequency-queries) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/Aditya2600/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/Aditya2600/Leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1753-path-with-minimum-effort](https://github.com/Aditya2600/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Aditya2600/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
