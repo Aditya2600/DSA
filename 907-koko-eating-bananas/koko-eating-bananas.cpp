@@ -1,16 +1,14 @@
 class Solution {
 public:
-    bool isValid(int k, const vector<int>& piles, int h) {
-        long long hours = 0;
-        for (int p : piles) {
-            // ceil(p / k) = (p + k - 1) / k
-            hours += (p + k - 1) / k;
+    bool isValid(int k, vector<int> piles, int h) {
+        int hours = 0;
+        for (int i = 0; i < piles.size(); i++) {
+            hours += ceil((double)piles[i] / k);
             if (hours > h)
-                return false; // early exit
+                return false;
         }
-        return hours <= h;
+        return true;
     }
-
     int minEatingSpeed(vector<int>& piles, int h) {
         sort(piles.begin(), piles.end());
         int n = piles.size();
