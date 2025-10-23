@@ -1305,6 +1305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0596-classes-with-at-least-5-students](https://github.com/Aditya2600/Leetcode/tree/master/0596-classes-with-at-least-5-students) |
 | [0607-sales-person](https://github.com/Aditya2600/Leetcode/tree/master/0607-sales-person) |
 | [0610-triangle-judgement](https://github.com/Aditya2600/Leetcode/tree/master/0610-triangle-judgement) |
+| [0619-biggest-single-number](https://github.com/Aditya2600/Leetcode/tree/master/0619-biggest-single-number) |
 | [1179-game-play-analysis-i](https://github.com/Aditya2600/Leetcode/tree/master/1179-game-play-analysis-i) |
 | [1292-immediate-food-delivery-ii](https://github.com/Aditya2600/Leetcode/tree/master/1292-immediate-food-delivery-ii) |
 | [1908-recyclable-and-low-fat-products](https://github.com/Aditya2600/Leetcode/tree/master/1908-recyclable-and-low-fat-products) |
