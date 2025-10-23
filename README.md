@@ -1323,6 +1323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1292-immediate-food-delivery-ii](https://github.com/Aditya2600/Leetcode/tree/master/1292-immediate-food-delivery-ii) |
 | [1301-reformat-department-table](https://github.com/Aditya2600/Leetcode/tree/master/1301-reformat-department-table) |
 | [1338-queries-quality-and-percentage](https://github.com/Aditya2600/Leetcode/tree/master/1338-queries-quality-and-percentage) |
+| [1390-average-selling-price](https://github.com/Aditya2600/Leetcode/tree/master/1390-average-selling-price) |
 | [1908-recyclable-and-low-fat-products](https://github.com/Aditya2600/Leetcode/tree/master/1908-recyclable-and-low-fat-products) |
 ## Doubly-Linked List
 |  |
