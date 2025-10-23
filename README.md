@@ -1321,6 +1321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1245-user-activity-for-the-past-30-days-i](https://github.com/Aditya2600/Leetcode/tree/master/1245-user-activity-for-the-past-30-days-i) |
 | [1258-article-views-i](https://github.com/Aditya2600/Leetcode/tree/master/1258-article-views-i) |
 | [1292-immediate-food-delivery-ii](https://github.com/Aditya2600/Leetcode/tree/master/1292-immediate-food-delivery-ii) |
+| [1301-reformat-department-table](https://github.com/Aditya2600/Leetcode/tree/master/1301-reformat-department-table) |
 | [1908-recyclable-and-low-fat-products](https://github.com/Aditya2600/Leetcode/tree/master/1908-recyclable-and-low-fat-products) |
 ## Doubly-Linked List
 |  |
