@@ -1344,6 +1344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-movie-rating](https://github.com/Aditya2600/Leetcode/tree/master/1480-movie-rating) |
 | [1523-capital-gainloss](https://github.com/Aditya2600/Leetcode/tree/master/1523-capital-gainloss) |
 | [1908-recyclable-and-low-fat-products](https://github.com/Aditya2600/Leetcode/tree/master/1908-recyclable-and-low-fat-products) |
+| [2057-count-salary-categories](https://github.com/Aditya2600/Leetcode/tree/master/2057-count-salary-categories) |
 ## Doubly-Linked List
 |  |
 | ------- |
