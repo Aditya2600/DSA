@@ -1347,6 +1347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2057-count-salary-categories](https://github.com/Aditya2600/Leetcode/tree/master/2057-count-salary-categories) |
 | [2087-confirmation-rate](https://github.com/Aditya2600/Leetcode/tree/master/2087-confirmation-rate) |
 | [3530-odd-and-even-transactions](https://github.com/Aditya2600/Leetcode/tree/master/3530-odd-and-even-transactions) |
+| [3816-dna-pattern-recognition](https://github.com/Aditya2600/Leetcode/tree/master/3816-dna-pattern-recognition) |
 ## Doubly-Linked List
 |  |
 | ------- |
