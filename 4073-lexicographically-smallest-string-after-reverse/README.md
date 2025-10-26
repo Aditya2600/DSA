@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/lexicographically-smallest-string-after-reverse">4073. Lexicographically Smallest String After Reverse</a></h2><h3>Medium</h3><hr><p>You are given a string <code>s</code> of length <code>n</code> consisting of lowercase English letters.</p>
+<h2><a href="https://leetcode.com/problems/lexicographically-smallest-string-after-reverse">Lexicographically Smallest String After Reverse</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a string <code>s</code> of length <code>n</code> consisting of lowercase English letters.</p>
 
 <p>You must perform <strong>exactly</strong> one operation by choosing any integer <code>k</code> such that <code>1 &lt;= k &lt;= n</code> and either:</p>
 
