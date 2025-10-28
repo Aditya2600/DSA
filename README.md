@@ -1360,6 +1360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3816-dna-pattern-recognition](https://github.com/Aditya2600/Leetcode/tree/master/3816-dna-pattern-recognition) |
 | [3848-analyze-subscription-conversion](https://github.com/Aditya2600/Leetcode/tree/master/3848-analyze-subscription-conversion) |
 | [3865-find-product-recommendation-pairs](https://github.com/Aditya2600/Leetcode/tree/master/3865-find-product-recommendation-pairs) |
+| [3898-seasonal-sales-analysis](https://github.com/Aditya2600/Leetcode/tree/master/3898-seasonal-sales-analysis) |
 ## Doubly-Linked List
 |  |
 | ------- |
