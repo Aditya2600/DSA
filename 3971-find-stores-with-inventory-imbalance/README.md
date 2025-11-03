@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/find-stores-with-inventory-imbalance">3971. Find Stores with Inventory Imbalance</a></h2><h3>Medium</h3><hr><p>Table: <code>stores</code></p>
+<h2><a href="https://leetcode.com/problems/find-stores-with-inventory-imbalance">Find Stores with Inventory Imbalance</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Table: <code>stores</code></p>
 
 <pre>
 +-------------+---------+
