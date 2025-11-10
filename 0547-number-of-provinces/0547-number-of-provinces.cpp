@@ -1,30 +1,37 @@
 class Solution {
-private:
-    // DFS traversal that works directly on the isConnected matrix
-    void dfs(int node, vector<vector<int>>& isConnected, vector<int>& vis) {
-        vis[node] = 1;  // Mark the node as visited
-        for (int j = 0; j < isConnected.size(); j++) {
-            // If there is a direct connection and the node is not visited, visit it
-            if (isConnected[node][j] == 1 && !vis[j]) {
-                dfs(j, isConnected, vis);
-            }
-        }
-    }
-
 public:
     int findCircleNum(vector<vector<int>>& isConnected) {
-        int v = isConnected.size();  // Number of nodes (cities)
-        vector<int> vis(v, 0);  // To keep track of visited nodes
-        int cnt = 0;  // Count the number of connected components (provinces)
-
-        // Perform DFS traversal for each unvisited node
-        for (int i = 0; i < v; i++) {
-            if (!vis[i]) {  // If node i is not visited, it's a new component
-                cnt++;
-                dfs(i, isConnected, vis);  // Visit all nodes in this component
+        int n = isConnected.size();
+        vector<vector<int>> adj(n);
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (isConnected[i][j] == 1 && i != j) {
+                    adj[i].push_back(j);
+                    adj[j].push_back(i);
+                }
             }
         }
+        vector<int> vis(n, 0);
+        int cnt = 0;
+        for (int i = 0; i < n; i++) {
+            if (!vis[i]) {
+                cnt++;
+                vis[i] = 1;
+                queue<int> q;
+                q.push(i);
 
-        return cnt;  // Return the number of provinces (connected components)
+                while (!q.empty()) {
+                    int node = q.front();
+                    q.pop();
+                    for (auto it : adj[node]) {
+                        if (!vis[it]) {
+                            q.push(it);
+                            vis[it] = 1;
+                        }
+                    }
+                }
+            }
+        }
+    return cnt;
     }
 };
