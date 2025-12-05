@@ -1,42 +1,40 @@
 class Solution {
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<list<int>> graph(numCourses);
-        for(auto it:prerequisites){
-            graph[it[1]].push_back(it[0]);
+        vector<vector<int>> adj(numCourses);
+        for(auto it : prerequisites){
+            int u = it[1];
+            int v = it[0];
+            adj[u].push_back(v);
         }
-        vector<int> indegree(numCourses,0);
+        vector<int> topo;
+        queue<int> qu;
+        vector<int> indegree(numCourses, 0);
         for(int i=0; i<numCourses; i++){
-            for(auto neighbour : graph[i]){
-                indegree[neighbour]++;
+            for(auto it : adj[i]){
+                indegree[it]++;
             }
         }
-        queue<int> qu;
-        unordered_set<int> vis;
+        
         for(int i=0; i<numCourses; i++){
             if(indegree[i] == 0){
                 qu.push(i);
-                vis.insert(i);
             }
         }
-        int count = 0;
-        vector<int> topo;
-        while(not qu.empty()){
+        while(!qu.empty()){
             int node = qu.front();
             qu.pop();
             topo.push_back(node);
-            count++;
-            for(auto neighbour : graph[node]){
-                if(not vis.count(neighbour)){
-                    indegree[neighbour]--;
-                    if(indegree[neighbour] == 0){
-                        qu.push(neighbour);
-                        vis.insert(neighbour);
-                    }
+            for(auto it : adj[node]){
+                indegree[it]--;
+                if(indegree[it] == 0){
+                    qu.push(it);
                 }
             }
         }
-        if(topo.size() == numCourses) return topo;
+        if(topo.size() == numCourses){
+            return topo;
+        }
         return {};
     }
 };
