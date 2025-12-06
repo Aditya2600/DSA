@@ -76,9 +76,11 @@ public:
         queue<string> q;
         q.push(beginWord);
         mpp.insert({beginWord, 0});
+        
         while(!q.empty()){
             string word = q.front();
             q.pop();
+            if(word == endWord) break;
             int level = mpp[word];
             for(int i=0; i<word.size(); i++){
                 char original = word[i];
