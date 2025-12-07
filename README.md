@@ -238,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Aditya2600/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Aditya2600/Leetcode/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/Aditya2600/Leetcode/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Aditya2600/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0794-swim-in-rising-water](https://github.com/Aditya2600/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/Aditya2600/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/Aditya2600/Leetcode/tree/master/0802-find-eventual-safe-states) |
@@ -286,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Aditya2600/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Aditya2600/Leetcode/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/Aditya2600/Leetcode/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Aditya2600/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0794-swim-in-rising-water](https://github.com/Aditya2600/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/Aditya2600/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/Aditya2600/Leetcode/tree/master/0802-find-eventual-safe-states) |
@@ -395,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/Aditya2600/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/Aditya2600/Leetcode/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/Aditya2600/Leetcode/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Aditya2600/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0801-is-graph-bipartite](https://github.com/Aditya2600/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/Aditya2600/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Aditya2600/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -634,6 +637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0688-knight-probability-in-chessboard](https://github.com/Aditya2600/Leetcode/tree/master/0688-knight-probability-in-chessboard) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Aditya2600/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/Aditya2600/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Aditya2600/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Aditya2600/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0823-split-array-with-same-average](https://github.com/Aditya2600/Leetcode/tree/master/0823-split-array-with-same-average) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Aditya2600/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
@@ -933,6 +937,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Aditya2600/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0744-network-delay-time](https://github.com/Aditya2600/Leetcode/tree/master/0744-network-delay-time) |
 | [0778-reorganize-string](https://github.com/Aditya2600/Leetcode/tree/master/0778-reorganize-string) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Aditya2600/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0794-swim-in-rising-water](https://github.com/Aditya2600/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Aditya2600/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1014-k-closest-points-to-origin](https://github.com/Aditya2600/Leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -948,6 +953,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/Aditya2600/Leetcode/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Aditya2600/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Aditya2600/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Aditya2600/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Aditya2600/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
