@@ -748,6 +748,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/Aditya2600/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/Aditya2600/Leetcode/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/Aditya2600/Leetcode/tree/master/2106-find-greatest-common-divisor-of-array) |
+| [2139-minimum-moves-to-reach-target-score](https://github.com/Aditya2600/Leetcode/tree/master/2139-minimum-moves-to-reach-target-score) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Aditya2600/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/Aditya2600/Leetcode/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Aditya2600/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
@@ -1071,6 +1072,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1503-reducing-dishes](https://github.com/Aditya2600/Leetcode/tree/master/1503-reducing-dishes) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Aditya2600/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1829-maximum-units-on-a-truck](https://github.com/Aditya2600/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
+| [2139-minimum-moves-to-reach-target-score](https://github.com/Aditya2600/Leetcode/tree/master/2139-minimum-moves-to-reach-target-score) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Aditya2600/Leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Aditya2600/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/Aditya2600/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
