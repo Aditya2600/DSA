@@ -254,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Aditya2600/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1104-coloring-a-border](https://github.com/Aditya2600/Leetcode/tree/master/1104-coloring-a-border) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/Aditya2600/Leetcode/tree/master/1120-flower-planting-with-no-adjacent) |
+| [1192-critical-connections-in-a-network](https://github.com/Aditya2600/Leetcode/tree/master/1192-critical-connections-in-a-network) |
 | [1300-critical-connections-in-a-network](https://github.com/Aditya2600/Leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Aditya2600/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1380-number-of-closed-islands](https://github.com/Aditya2600/Leetcode/tree/master/1380-number-of-closed-islands) |
@@ -416,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Aditya2600/Leetcode/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aditya2600/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/Aditya2600/Leetcode/tree/master/1120-flower-planting-with-no-adjacent) |
+| [1192-critical-connections-in-a-network](https://github.com/Aditya2600/Leetcode/tree/master/1192-critical-connections-in-a-network) |
 | [1300-critical-connections-in-a-network](https://github.com/Aditya2600/Leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Aditya2600/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Aditya2600/Leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -992,6 +994,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Biconnected Component
 |  |
 | ------- |
+| [1192-critical-connections-in-a-network](https://github.com/Aditya2600/Leetcode/tree/master/1192-critical-connections-in-a-network) |
 | [1300-critical-connections-in-a-network](https://github.com/Aditya2600/Leetcode/tree/master/1300-critical-connections-in-a-network) |
 ## Sliding Window
 |  |
