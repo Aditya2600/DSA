@@ -1,75 +1,53 @@
 class Solution {
 public:
-    int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int
-    dst, int k) {
-        unordered_map<int, vector<pair<int, int>>> adj;
-        for(auto it : flights){
-            int u = it[0];
-            int v = it[1];
-            int w = it[2];
-            adj[u].push_back({v, w});
+    int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst,
+                          int k) {
+        vector<vector<pair<int, int>>> adj(n);
+        for (auto edg : flights) {
+            int u = edg[0];
+            int v = edg[1];
+            int wt = edg[2];
+            adj[u].push_back({v, wt});
         }
 
-        vector<int> dist(n, 1e9);
-        queue<pair<int,pair<int, int>>> q;
-        q.push({0, {src, 0}});
-        dist[src] = 0;
-        while(!q.empty()){
-            int steps = q.front().first;
-            int node = q.front().second.first;
-            int price = q.front().second.second;
-            q.pop();
-            if(steps > k) continue;
-            for(auto it : adj[node]){
-                int newPrice = it.second;
-                int newNode = it.first;
-                if(newPrice + price < dist[newNode] && steps <= k){
-                    dist[newNode] = newPrice + price;
-                    q.push({steps+1,{newNode, newPrice + price}});
-                }
+        vector<vector<int>> dist(n, vector<int>(k + 2, 1e9));
+        priority_queue<pair<int, pair<int, int>>,
+                       vector<pair<int, pair<int, int>>>,
+                       greater<pair<int, pair<int, int>>>>
+            pq;
+        dist[src][0] = 0;
+        pq.push({0, {src, 0}}); // {cost, {node, flights_taken}};
+        while (!pq.empty()) {
+            auto top = pq.top();
+            pq.pop();
+
+            int wt = top.first;
+            int u = top.second.first;
+            int stop = top.second.second;
+
+            if (u == dst) {
+                return wt;
             }
+
+            if (stop == k + 1) {
+                continue;
+            }
+
+            if(wt > dist[u][stop]){
+                continue;
+            }
+
+                for (auto x : adj[u]) {
+                    int v = x.first;
+                    int nextWt = x.second;
+                    int newStop = stop + 1;
+
+                    if (dist[u][stop] + nextWt < dist[v][newStop]) {
+                        dist[v][newStop] = dist[u][stop] + nextWt;
+                        pq.push({dist[u][stop] + nextWt, {v, newStop}});
+                    }
+                }
         }
-        if(dist[dst] == 1e9) return -1;
-        return dist[dst];
+        return -1;
     }
 };
-
-// class Solution {
-// public:
-//     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst,
-//                           int k) {
-//         unordered_map<int, vector<pair<int, int>>> adj;
-//         for (auto it : flights) {
-//             int u = it[0];
-//             int v = it[1];
-//             int w = it[2];
-//             adj[u].push_back({v, w});
-//         }
-
-//         vector<int> dist(n, 1e9);
-//         queue<pair<int, int>> q;
-//         q.push({0, src});
-//         dist[src] = 0;
-//         int steps = 0;
-//         while (!q.empty() && steps <= k) {
-//             int N = q.size();
-//             while (N--) {
-//                 int p = q.front().first;
-//                 int node = q.front().second;
-//                 q.pop();
-//                 for (auto it : adj[node]) {
-//                     int price = it.second;
-//                     int newNode = it.first;
-                    
-//                     if (p + price < dist[newNode]) {
-//                         dist[newNode] = p + price;
-//                         q.push({p + price, newNode});
-//                     }
-//                 }
-//             }
-//             steps++;
-//         }
-//         if(dist[dst] == 1e9) return -1;
-//         return dist[dst];
-//     }
-// };
