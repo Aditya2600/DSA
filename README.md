@@ -1502,4 +1502,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/Aditya2600/DSA/tree/main/1483-kth-ancestor-of-a-tree-node/) | Hard |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0721-accounts-merge](https://github.com/Aditya2600/DSA/tree/main/0721-accounts-merge/) | Medium |
 <!---LeetCode Topics End-->
