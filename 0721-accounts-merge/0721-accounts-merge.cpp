@@ -16,15 +16,15 @@ public:
         if (ulp_x == ulp_y) {
             return;
         }
-        if (size[x] > size[y]) {
+        if (size[ulp_x] > size[ulp_y]) {
             parent[ulp_y] = ulp_x;
-            size[x] += size[y];
-        } else if (size[x] < size[y]) {
+            size[ulp_x] += size[ulp_y];
+        } else if (size[ulp_x] < size[ulp_y]) {
             parent[ulp_x] = ulp_y;
-            size[y] += size[x];
+            size[ulp_y] += size[ulp_x];
         } else {
             parent[ulp_x] = ulp_y;
-            size[y] += size[x];
+            size[ulp_y] += size[ulp_x];
         }
     }
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
