@@ -1496,6 +1496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0207-course-schedule](https://github.com/Aditya2600/DSA/tree/main/0207-course-schedule/) | Medium |
 | [0399-evaluate-division](https://github.com/Aditya2600/DSA/tree/main/0399-evaluate-division/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Aditya2600/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Bracket Sequences
@@ -1527,4 +1528,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/Aditya2600/DSA/tree/main/0239-sliding-window-maximum/) | Hard |
+## Directed Acyclic Graph
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0207-course-schedule](https://github.com/Aditya2600/DSA/tree/main/0207-course-schedule/) | Medium |
 <!---LeetCode Topics End-->
