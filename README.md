@@ -625,6 +625,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3860-resulting-string-after-adjacent-removals](https://github.com/Aditya2600/Leetcode/tree/master/3860-resulting-string-after-adjacent-removals) |
 | [3867-lexicographically-smallest-string-after-adjacent-removals](https://github.com/Aditya2600/Leetcode/tree/master/3867-lexicographically-smallest-string-after-adjacent-removals) |
 | [3939-process-string-with-special-operations-ii](https://github.com/Aditya2600/Leetcode/tree/master/3939-process-string-with-special-operations-ii) |
+| [4106-find-mismatched-segments-between-two-strings](https://github.com/Aditya2600/DSA/tree/main/4106-find-mismatched-segments-between-two-strings/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
